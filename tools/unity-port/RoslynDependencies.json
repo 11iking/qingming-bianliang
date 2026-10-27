@@ -1,0 +1,42 @@
+[
+  {
+    "package": "microsoft.codeanalysis.common",
+    "version": "4.12.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/4.12.0/microsoft.codeanalysis.common.4.12.0.nupkg",
+    "dll": "Microsoft.CodeAnalysis.dll",
+    "sha256": "a8aef0aaec005c7c9c246669d35575c6075bd876f3095ef06fb07fee7df43b61",
+    "bytes": 4986664
+  },
+  {
+    "package": "microsoft.codeanalysis.csharp",
+    "version": "4.12.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/4.12.0/microsoft.codeanalysis.csharp.4.12.0.nupkg",
+    "dll": "Microsoft.CodeAnalysis.CSharp.dll",
+    "sha256": "81b578b15e4a3f2ba928fab9d014e9fad6b885fa25a2a7e6176beda937588764",
+    "bytes": 7021856
+  },
+  {
+    "package": "system.collections.immutable",
+    "version": "8.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg",
+    "dll": "System.Collections.Immutable.dll",
+    "sha256": "5b1b1c83ba3d135c2fdfe425842fbe9c7432878b7e468623acb554c69b4c130f",
+    "bytes": 252680
+  },
+  {
+    "package": "system.reflection.metadata",
+    "version": "8.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.reflection.metadata/8.0.0/system.reflection.metadata.8.0.0.nupkg",
+    "dll": "System.Reflection.Metadata.dll",
+    "sha256": "55ef768ffa305de58e38e15420669258b16f420618eb1f702bddb30e5c797961",
+    "bytes": 487696
+  },
+  {
+    "package": "system.runtime.compilerservices.unsafe",
+    "version": "6.0.0",
+    "url": "https://api.nuget.org/v3-flatcontainer/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg",
+    "dll": "System.Runtime.CompilerServices.Unsafe.dll",
+    "sha256": "01748200f2400c742aa689f1f5101bd6298efdfd92c00c18f4fa473847235ba9",
+    "bytes": 18024
+  }
+]

@@ -1,0 +1,3 @@
+Source: https://github.com/CoplayDev/unity-mcp
+Commit: 81542a7e86292b5c4c21b1782c5af23b567f45ce
+Vendored editor package, server and documentation. Nested Git metadata and virtual environments excluded.

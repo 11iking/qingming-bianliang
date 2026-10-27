@@ -1,0 +1,59 @@
+汴梁一日：从桌面 Demo 到 Vision Pro 的接续工作
+状态：开发建议与待办，尚未实施 visionOS 适配。
+
+建议路线
+当前体验以进入汴梁街道、亲历人物故事为主，建议优先评估 Metal 全沉浸式路线。
+这是基于现有体验与自定义水墨材质的工程判断，最终模式需在设备上验证。
+如果目标是在现实房间摆放画卷、沙盘并与现实环境混合，则另评估 RealityKit / PolySpatial 路线；材质和转场工作量会增加。
+不要把“Mac 上能播放”与“Vision Pro 里可交互”视为同一验收项。
+
+阶段 A：恢复桌面基线
+[ ] 用 Apple silicon Unity 在本地副本导入场景，检查 Console 无阻断错误。
+[ ] 核对本包完整性；确定 14 场故事、13 张立绘和全部画卷分块齐全。
+[ ] 验证素材路径大小写、字体、Metal 下水墨材质、入画与昼夜效果。
+[ ] 在 Mac 运行故事与实物交互检查；记录实际编辑器和 macOS 版本。
+[ ] 需要独立桌面程序时，在 Mac 构建配置选择 macOS / Apple silicon；当前自定义菜单只有 Build Windows Demo，请不要误用。
+
+阶段 B：建立 visionOS 工程副本
+[ ] 选择相互匹配的 Unity、visionOS Build Support、XR/PolySpatial 包和 Xcode/SDK。
+[ ] 先用官方示例通过一次模拟器及设备构建，再接入本项目。
+[ ] 评估并迁移到 URP；不直接批量转换全部材质后覆盖唯一工程。
+[ ] 核对所选 Unity 订阅、平台包访问权限及 Apple 签名配置。
+
+阶段 C：替换相机与输入
+现状：BianliangDemo.cs 在运行时创建单目 Camera；Update 中读键鼠，脚本直接移动相机。
+[ ] 接入 XR Origin、头部位姿和双目渲染，取消对头显相机的强制位置/旋转控制。
+[ ] 将确认、返回、选项、抓取、放下等操作抽成公共动作接口，再接注视选择、捏合或手部交互。
+[ ] 改造 BianliangHands.cs 的鼠标射线和屏幕坐标操作；保留 HandsWork.cs 的钱货校验和完成条件。
+[ ] 传送、转向及提篓送货需重新设计舒适移动方式，不能把 WASD 镜头运动直接照搬到头显。
+
+阶段 D：空间界面与画卷
+现状：BianliangUI.cs、人物立绘与画卷用 OnGUI / IMGUI 按二维屏幕坐标绘制。
+[ ] 把对话框、立绘、账本和任务选择改为可交互的空间 UI，并测可读距离与遮挡。
+[ ] 把 PaintingViewer.cs 的展卷输入改为注视/捏合与空间面板交互。
+[ ] ScrollAtmosphere.cs 使用 OnRenderImage/Graphics.Blit；URP 或双目渲染下需重做或替换转场。
+[ ] 保持“仅转场染色、结束恢复场景原色”的既定体验要求。
+
+阶段 E：材质与性能
+现状：内置渲染管线，自定义 InkToon、WorldText、水面与屏幕后处理；街道有合并装饰网格。
+[ ] Metal 全沉浸式：检查自定义 Shader 的立体渲染与目标平台兼容性。
+[ ] RealityKit/PolySpatial：自定义 ShaderLab 不可直接照搬，改用支持的材质/Shader Graph，逐项比对视觉差异。
+[ ] 对近看角色、文字、手持物件进行比例与细节检查；M4 Max 性能不代表 Vision Pro 性能。
+[ ] 在真机测 GPU/CPU 帧时间、内存、透明叠加、阴影及长卷纹理占用；建立可重复测试场景。
+
+阶段 F：验收
+[ ] 模拟器：启动、菜单、场景加载及基础流程。
+[ ] Vision Pro 真机：注视、捏合、拿放、交接、文字阅读、移动舒适度、暂停恢复及存档。
+[ ] 从家门到夜归完整游玩，确认钱货守恒和前后人物关系没有被 XR 输入破坏。
+[ ] 记录设备、系统、构建版本、实测性能与已知问题后，再标记为 Vision Pro 可交付。
+
+接手开发定位
+剧情：Assets/Scripts/AnStory.cs、DayState.cs
+主控制与相机：BianliangDemo.cs
+界面与人物图：BianliangUI.cs、BianliangPortraits.cs
+实物规则与输入：HandsWork.cs、BianliangHands.cs
+场景与环境：BianliangWorld.cs、AnStoryWorld.cs、StreetEnvironment.cs
+原画与转场：PaintingViewer.cs、ScrollAtmosphere.cs
+资源：Assets/Resources/Portraits、Assets/Resources/Imported、Assets/StreamingAssets/Painting
+场景：Assets/Scenes/Qingming.unity
+以上路径相对于 UnityProject。

@@ -1,0 +1,113 @@
+汴梁一日 · 清明上河图｜Mac 开发迁移说明
+整理日期：2026-10-20
+
+一、先运行起来
+
+1. 将整个 ZIP 解压到 Mac 的本地文件夹，保留目录结构。
+2. 安装 Godot 4 标准版（本项目使用 GDScript，不需要 .NET 版）。
+   本工程在 Windows 上使用 Godot 4.7.2 验证；优先使用相同版本。
+   官方 Mac 下载：https://godotengine.org/download/macos/
+   历史版本：https://godotengine.org/download/archive/
+3. 打开 Godot 项目管理器，选择“导入”，选中本文件同目录的 project.godot。
+4. 等待首次资源导入结束，然后按 F5 运行（部分 Mac 键盘需 Fn + F5）。
+   也可点击编辑器右上角运行按钮。
+
+已经将高清原画、切片、字体、模型生成代码、着色器和音效生成代码一起打包。
+运行游戏不需要 Python、Node、Blender，也不需要另行下载素材。
+工程采用 Compatibility 渲染器；请先保留此设置，确认画面正常后再调整。
+当前没有在真实 Mac 上做运行或性能测试；迁移包是可编辑源码，不是已签名的 Mac App。
+
+可选：把 Godot.app 放进 /Applications 后，运行“在Mac上开发.command”。
+如果双击不能执行，在该文件夹打开终端，输入：
+    bash ./在Mac上开发.command
+如 Godot 位于其他位置，优先用项目管理器导入；也可设置 GODOT_BIN 为其可执行文件完整路径。
+
+二、文件在哪里
+
+project.godot             Godot 工程入口
+scenes/main.tscn          主场景
+scripts/main.gd           流程、场景切换、输入控制
+scripts/world.gd          3D 场景与人物的程序化生成
+scripts/hud.gd            界面
+scripts/scroll_ui.gd      横向长卷交互
+scripts/day_state.gd      一天的状态、交易、存档
+scripts/*.gdshader       三渲二、轮廓、水面等效果
+assets/                  游戏素材、画作切片、字体
+reference/               高清原画以及保留的旧版源码参考
+captures/                截图、演示视频、GIF 和原始录屏
+pre/                     HTML 汇报展示与可编辑源码
+tests/                   状态和素材检查
+tools/                   素材处理、视频处理、打包工具
+build/                   历史 Windows 成品、日志与许可
+交付包/                  之前交付的版本压缩包，完整保留
+
+build 中的 .exe 和“开始体验.cmd”用于 Windows；在 Mac 上通过 Godot 运行源码。
+原有 tools/export_windows.py 和 tools/verify_release.py 是 Windows 构建相关工具。
+本次没有携带本机安装的 Godot 程序、导出模板或机器环境，Mac 上请单独安装。
+
+三、继续修改 HTML 汇报
+
+展示用：pre/汴梁一日_PRE.html
+编辑用：pre/index.html 和 pre/assets/
+讲稿：pre/逐页讲稿.txt
+操作说明：pre/展示使用说明.txt
+
+展示单文件已内嵌图片、字体和视频，可直接用浏览器打开。
+修改 index.html 后，在项目根目录运行：
+    python3 pre/export_pre.py
+会重新生成单文件 HTML 和 PRE 压缩包；此步骤只需 Python 标准库。
+
+若要通过本地网页服务预览，在项目根目录运行：
+    python3 -m http.server 8766 --bind 127.0.0.1 --directory pre
+然后浏览器访问 http://127.0.0.1:8766/
+Ctrl + C 停止服务。
+
+四、可选的素材工具依赖
+
+现成素材已全部包含，不必重复生成。
+仅在需要重新切图、处理字体或视频时，安装 Python 3.10 或以上，并运行：
+    python3 -m venv .venv
+    source .venv/bin/activate
+    python3 -m pip install -r tools/requirements-assets.txt
+
+重新准备展示素材：python3 pre/prepare_assets.py
+检查原画切片：python3 tests/test_painting_assets.py
+不要复制 Windows 的虚拟环境到 Mac。本次已移除脚本中对本机 Node.exe 路径的依赖。
+
+五、导出 Mac 应用
+
+先在 Godot 中确认 F5 可正常运行，再进行导出：
+1. 编辑器 → 管理导出模板，安装与当前编辑器版本对应的模板。
+2. 项目 → 导出 → 添加 → macOS。
+3. 使用 Universal 架构，覆盖 Apple Silicon 与 Intel；填写应用名称及自己的包标识符。
+4. 输出到 build/mac/ 下。已有 Windows 预设继续保留。
+5. 分发给其他人前，再按照官方说明完成相应签名、公证和目标设备测试。
+
+官方导出说明：
+https://docs.godotengine.org/en/stable/tutorials/export/exporting_for_macos.html
+Mac 运行说明：
+https://docs.godotengine.org/en/stable/tutorials/export/running_on_macos.html
+
+六、开发状态与后续 VR
+
+当前版本：桌面键鼠体验，包括可拖动的真实画作长卷、人物一天的生活、
+三种叙事视角、交易分支、斟酒碰杯与划船等交互。
+HTML 汇报说明空间计算、交互设计及后续 VR 路线；VR 尚未实现。
+未来需要另行接入目标设备的 XR 运行环境、头手追踪、动作映射及空间交互，
+并验证移动舒适性、性能和操作反馈。Mac 开发环境本身不代表已支持任何 VR 设备。
+
+七、本包的范围与校验
+
+已保留项目文件、原始素材、PRE、全部现有历史交付 ZIP、Windows 构建及录屏。
+仅排除可重建缓存：.godot、Python __pycache__、.venv、Windows Brotli 缓存，
+以及本迁移输出目录自身，避免压缩包递归打包自己。
+具体文件列表、大小与 SHA-256 见“迁移文件清单.json”，排除列表也记录在其中。
+这里打包的是工作目录内容，不包含其他项目或操作系统目录中的游戏存档。
+
+在 Mac 项目根目录可验证每个文件：
+    python3 tools/verify_migration.py
+验证整个 ZIP 的 SHA-256（终端进入 ZIP 所在目录）：
+    shasum -a 256 -c 清明上河图_Mac开发完整包.sha256.txt
+
+使用 tools/package_migration.py 可重新生成迁移包。
+打包脚本会验证全部压缩数据的 CRC，并生成逐文件及整包校验值。

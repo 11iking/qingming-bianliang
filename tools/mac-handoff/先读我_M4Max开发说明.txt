@@ -1,0 +1,70 @@
+清明上河图 · 汴梁一日
+M4 Max Mac 开发交接包 / 2026-10-21
+
+一、这个包是什么
+这是最新项目的可编辑源码交接包：十四场故事、实物交互、街景细化、入画渐变、十三位人物立绘均包含。
+主工程是 UnityProject；根目录 project.godot 是保留的旧 Godot 工程，仅作参考。
+当前已经验证的是 Windows 团结引擎版。Mac、标准 Unity 编辑器和 Vision Pro 尚未实际编译运行验证。
+本包不是可以直接装入 Vision Pro 的应用，也不是 macOS .app。
+
+二、复制到 M4 Max 后怎么打开
+1. 通过移动硬盘、局域网或网盘，把 ZIP 传到 Mac，完整解压到本地目录，例如 ~/Developer/QingmingMacDev。
+2. 保留 UnityProject 与 tools 的相对位置；不要只取出 Assets 或单独移动 UnityProject。
+3. 用 Apple silicon 版本的 Unity 编辑器。首次恢复桌面效果可用 Unity 2022.3 LTS，再另复制工程升级到与 visionOS 包匹配的 Unity 6。
+4. Unity Hub 中选择 Add / 从磁盘添加项目，选择 UnityProject 文件夹。提示版本不匹配时，明确选择已安装的 Apple silicon 编辑器。
+   原工程是团结 1.10.4 / 2022.3.62t16。本交接副本的版本标记调整为标准 Unity 2022.3.62f1，方便 Hub 识别；这只是版本标记，不代表已经完成标准 Unity 转换验证。
+   原始版本和依赖清单在 HandoffReference 中，可随时核对。Windows 原工程完全未改动。
+5. 等首次导入和包下载完成。打开 Assets/Scenes/Qingming.unity，点击 Play。入画后可按 F 展开人物对话。
+6. 也可运行 OpenUnityOnMac.command；脚本会列出已安装编辑器供选择。若 Finder 没有执行权限，在终端运行：
+   bash "/完整解压路径/OpenUnityOnMac.command"
+7. 校对：中文与画卷正常、13 位人物图片正常、入画恢复原色、拿梨翻面和交货正常、保存并重新打开正常。
+   请在复制出的测试工程上运行命令行 -qingming-self-test -quit-after-test，查看 QINGMING_SELF_TEST_PASS / QINGMING_PORTRAITS_PASS / QINGMING_HANDS_PASS。
+   不要用 -nographics 检查画面或材质；测试依赖图形设备。相关测试位于 BianliangSelfTest.cs 和 BianliangHandsTest.cs。
+
+三、包中保留的内容
+UnityProject/Assets、Packages、ProjectSettings：最新场景、网格、代码、字体、立绘、原画分块及设置。
+tools/unity-mcp/MCPForUnity：Unity 编辑器侧 MCP 包，仍通过相对路径引用。
+tools/unity-mcp/Server：MCP 服务端源码与 uv.lock，Mac 上重新安装环境。
+剧本、美术、captures、reference、pre：研究、人物图鉴、生成提示词、实机画面及已有演示素材。
+assets、scenes、scripts、tests、project.godot：原 Godot 源码及素材参考。
+本周进度汇报 HTML：单文件可离线展示。
+HandoffReference：迁移前的版本与依赖记录、Windows 验证结果摘录。
+MANIFEST.sha256：交接包内逐文件校验清单；TRANSFER_MANIFEST.json：来源、变更与完整性记录。
+
+四、为什么包里没有编辑器和缓存
+Unity/Tuanjie 编辑器、Xcode、Python、uv、平台构建模块需在 Mac 安装，不可照搬 Windows 程序。
+未包含 Library、Temp、Logs、UserSettings、.godot、.git、.venv、安装器、个人账号配置、原始编辑器日志、旧压缩包和 Windows exe。
+这些不是继续编辑所必需的源码。首次导入会重建缓存，并需要访问 Unity 包仓库。
+本包的 packages-lock.json 不沿用团结包仓库锁定记录，由 Mac 上的标准 Unity 重新解析。
+manifest.json 显式列出游戏所需模块及 Newtonsoft.Json，避免把游戏依赖隐含绑定到 MCP。
+
+五、MCP 在 Mac 上重新接入
+MCP 是开发辅助功能，不是运行游戏必须启动的服务。
+先安装 Python 3.10+ 和 uv，然后按 tools/unity-mcp/README.md 操作，或运行：
+   bash "/完整解压路径/SetupMCPOnMac.command"
+该脚本只在包内创建 Mac Python 环境，执行 uv sync --frozen，不复制 Windows 虚拟环境。
+Unity 菜单 Window > MCP for Unity 中确认桥接状态。不同版本菜单文字可能略有差异。
+配置你使用的 MCP 客户端：命令 /bin/bash，参数是解压后的 StartMCPOnMac.command 绝对路径。
+示例 JSON 保存在 MCP客户端配置示例.json；把唯一占位路径改成 Mac 上的实际路径即可。此文件不会自动修改任何客户端配置。
+第一次启动前先运行环境安装脚本；启动脚本采用 stdio，不能把普通提示文字写到标准输出。
+若暂时不使用 MCP，可由接手开发者先处理 QingmingMcpStartup.cs 的包引用再移除 MCP 依赖，不能只删服务端目录。
+
+六、Vision Pro 开发顺序
+推荐先恢复桌面基线，然后在副本上做沉浸式改造。具体工作见 VisionPro后续开发清单.txt。
+M4 Max 属于 Apple silicon，符合所查 Unity visionOS 文档的硬件类型要求；还需匹配 macOS、Xcode、SDK、编辑器和插件版本。
+开发机先安装 Apple silicon Unity、visionOS Build Support、包含所需 visionOS SDK 的 Xcode。
+Unity 2022.3 与 PolySpatial 1.x、Unity 6 与 PolySpatial 2.x/后续版本不是任意混装关系，应按选定包的 Requirements 配套。
+本次不在 Windows 原工程中强行安装 visionOS 包、不预先切换渲染管线，也没有生成 Xcode 工程。
+导出 Xcode 工程、配置签名、连接设备并部署的步骤在 Mac 上完成。账户、授权和签名使用接收方自己的配置。
+
+七、官方资料（2026-10-21 核对）
+Unity visionOS / PolySpatial 要求与版本关系：
+https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@2.4/manual/Requirements.html
+Metal 全沉浸式路线：
+https://docs.unity3d.com/Packages/com.unity.polyspatial.visionos@2.4/manual/MetalApps.html
+Apple visionOS 开发入口：
+https://developer.apple.com/visionos/get-started/
+Mac 构建：
+https://docs.unity3d.com/cn/2022.3/Manual/macos-building.html
+
+若只完成解压和导入，不应将进度描述为“已适配 Vision Pro”。以 Mac 编译、模拟器检查和真机验证分别记录结果。

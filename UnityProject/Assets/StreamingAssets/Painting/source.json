@@ -1,0 +1,129 @@
+{
+  "title": "清明上河图",
+  "artist": "张择端",
+  "collection": "故宫博物院",
+  "source_page": "https://commons.wikimedia.org/wiki/File:Alongtheriver_QingMing.jpg",
+  "museum_reference": "https://www.dpm.org.cn/collection/paint/228226.html",
+  "download_url": "https://upload.wikimedia.org/wikipedia/commons/8/86/Alongtheriver_QingMing.jpg",
+  "sha1": "5adcde2072c563ba48a4f2a8758f2b466e0e540b",
+  "width": 38414,
+  "height": 1800,
+  "license": "Public domain / PD-Art (PD-old-100-expired)",
+  "processing": "Original JPEG retained. Decoded RGB pixels split losslessly into PNG tiles; no recoloring, AI upscaling, cropping of content, or retouching. Overview is a separate navigation thumbnail.",
+  "tiles": [
+    {
+      "index": 0,
+      "x": 0,
+      "width": 2048,
+      "file": "tile_00.png"
+    },
+    {
+      "index": 1,
+      "x": 2048,
+      "width": 2048,
+      "file": "tile_01.png"
+    },
+    {
+      "index": 2,
+      "x": 4096,
+      "width": 2048,
+      "file": "tile_02.png"
+    },
+    {
+      "index": 3,
+      "x": 6144,
+      "width": 2048,
+      "file": "tile_03.png"
+    },
+    {
+      "index": 4,
+      "x": 8192,
+      "width": 2048,
+      "file": "tile_04.png"
+    },
+    {
+      "index": 5,
+      "x": 10240,
+      "width": 2048,
+      "file": "tile_05.png"
+    },
+    {
+      "index": 6,
+      "x": 12288,
+      "width": 2048,
+      "file": "tile_06.png"
+    },
+    {
+      "index": 7,
+      "x": 14336,
+      "width": 2048,
+      "file": "tile_07.png"
+    },
+    {
+      "index": 8,
+      "x": 16384,
+      "width": 2048,
+      "file": "tile_08.png"
+    },
+    {
+      "index": 9,
+      "x": 18432,
+      "width": 2048,
+      "file": "tile_09.png"
+    },
+    {
+      "index": 10,
+      "x": 20480,
+      "width": 2048,
+      "file": "tile_10.png"
+    },
+    {
+      "index": 11,
+      "x": 22528,
+      "width": 2048,
+      "file": "tile_11.png"
+    },
+    {
+      "index": 12,
+      "x": 24576,
+      "width": 2048,
+      "file": "tile_12.png"
+    },
+    {
+      "index": 13,
+      "x": 26624,
+      "width": 2048,
+      "file": "tile_13.png"
+    },
+    {
+      "index": 14,
+      "x": 28672,
+      "width": 2048,
+      "file": "tile_14.png"
+    },
+    {
+      "index": 15,
+      "x": 30720,
+      "width": 2048,
+      "file": "tile_15.png"
+    },
+    {
+      "index": 16,
+      "x": 32768,
+      "width": 2048,
+      "file": "tile_16.png"
+    },
+    {
+      "index": 17,
+      "x": 34816,
+      "width": 2048,
+      "file": "tile_17.png"
+    },
+    {
+      "index": 18,
+      "x": 36864,
+      "width": 1550,
+      "file": "tile_18.png"
+    }
+  ]
+}

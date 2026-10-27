@@ -1,0 +1,2094 @@
+{
+  "created": "2026-10-20T13:59:34.660797+08:00",
+  "scope": "Complete workspace including historical ZIPs and Windows builds",
+  "engine_verified_on_windows": "4.7.2",
+  "mac_runtime_tested": false,
+  "excluded": [
+    {
+      "path": ".godot/.gdignore",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn-folding-9e2437740bb336f4fe8437ef104dde6e.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/filesystem_cache10",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/main.tscn-folding-3ad5c15c4f3250da0cc7c1af1770d85f.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/NotoSansSC.ttf-53e7d2951cb723449d16fcecb813db38.fontdata-folding-2cdecff3c6045341599d61894f3fc5d5.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/NotoSerifSC.ttf-f9681ab396cd468c5f1aa660d91a9cf1.fontdata-folding-2519fe604cd13cbcaee52bc64a5a4e57.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/editor/project_metadata.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/exported/133200997/export-3ad5c15c4f3250da0cc7c1af1770d85f-main.scn",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/exported/133200997/file_cache",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/global_script_class_cache.cfg",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/01_title.png-57a612ae1094c926f40de8e54d5eb991.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/01_title.png-57a612ae1094c926f40de8e54d5eb991.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/01_title.png-fd1965c43063e18151dd8655a3fc4d97.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/01_title.png-fd1965c43063e18151dd8655a3fc4d97.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/02_market.png-35a991ee828bad17370ef7ff3451742e.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/02_market.png-35a991ee828bad17370ef7ff3451742e.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/02_market.png-b9dcc11059d2bd20d225bd8b94c499c6.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/02_market.png-b9dcc11059d2bd20d225bd8b94c499c6.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/03_bargain.png-5a33e9001d24a4c2ea02898dfe69dd32.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/03_bargain.png-5a33e9001d24a4c2ea02898dfe69dd32.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/03_bargain.png-6df9119e6f53fa9df50665a46bae41a1.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/03_bargain.png-6df9119e6f53fa9df50665a46bae41a1.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/04_bridge.png-06cf531ecbea67e0b93fcc69bedeeecf.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/04_bridge.png-06cf531ecbea67e0b93fcc69bedeeecf.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/04_bridge.png-3732fc5e53c158d2cfe95e6d32447f77.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/04_bridge.png-3732fc5e53c158d2cfe95e6d32447f77.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/05_boat.png-ce29ffa2068d032ffd1b3786bd6abd8a.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/05_boat.png-ce29ffa2068d032ffd1b3786bd6abd8a.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/05_boat.png-d6183f71ecaf684360d57f41036ba1be.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/05_boat.png-d6183f71ecaf684360d57f41036ba1be.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/06_tavern.png-6118908bb15abfa98032357f465a7eb5.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/06_tavern.png-6118908bb15abfa98032357f465a7eb5.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/06_tavern.png-bdcaf6da3ba3a36c834d9ac9750c4fbc.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/06_tavern.png-bdcaf6da3ba3a36c834d9ac9750c4fbc.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/07_second_person.png-212e563bd16132732fb188c79d966a3d.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/07_second_person.png-212e563bd16132732fb188c79d966a3d.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/07_second_person.png-adaf6e4292a1c73b914a511d21d143bd.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/07_second_person.png-adaf6e4292a1c73b914a511d21d143bd.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/08_theatre.png-5488ee10d3b219f32530ff2a1e687938.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/08_theatre.png-5488ee10d3b219f32530ff2a1e687938.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/08_theatre.png-cbddaf196b92794268cbcf1db34761a3.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/08_theatre.png-cbddaf196b92794268cbcf1db34761a3.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/09_summary.png-6f688084044260c97706ae5ed0634d0b.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/09_summary.png-6f688084044260c97706ae5ed0634d0b.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/09_summary.png-edca1cc1b4140d6cec3eb9f2340d5409.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/09_summary.png-edca1cc1b4140d6cec3eb9f2340d5409.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/10_chapters.png-4bcac4c7cb53e9666d257ff0c41e55e0.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/10_chapters.png-4bcac4c7cb53e9666d257ff0c41e55e0.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/10_chapters.png-719e3a08fc2e6a4069fe3e506586b37e.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/10_chapters.png-719e3a08fc2e6a4069fe3e506586b37e.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/11_journal.png-b1ab257e898947166dc67cdbfa903c0c.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/11_journal.png-b1ab257e898947166dc67cdbfa903c0c.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/11_journal.png-bde0b7f8716514a47eb4d8202e5169ab.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/11_journal.png-bde0b7f8716514a47eb4d8202e5169ab.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/12_original_pixels.png-6438d20e8a87436179bd421bbd13ee7b.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/12_original_pixels.png-6438d20e8a87436179bd421bbd13ee7b.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/13_full_scroll.png-663d3b2e7f56e0288aca5597a70d00f0.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/13_full_scroll.png-663d3b2e7f56e0288aca5597a70d00f0.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/NotoSansSC.ttf-53e7d2951cb723449d16fcecb813db38.fontdata",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/NotoSansSC.ttf-53e7d2951cb723449d16fcecb813db38.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/NotoSerifSC.ttf-f9681ab396cd468c5f1aa660d91a9cf1.fontdata",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/NotoSerifSC.ttf-f9681ab396cd468c5f1aa660d91a9cf1.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/overview.jpg-8e4173d839cee20c845488116885496d.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/overview.jpg-8e4173d839cee20c845488116885496d.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_00.png-458b08763d45a84d62d778ca6099e44a.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_00.png-458b08763d45a84d62d778ca6099e44a.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_01.png-1d8c373f8b5caa5c94e47dfebdc08369.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_01.png-1d8c373f8b5caa5c94e47dfebdc08369.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_02.png-70d68842a3e806b235e768df89080bd4.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_02.png-70d68842a3e806b235e768df89080bd4.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_03.png-4d2e13944c923b0d476d57f53c1fbf6b.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_03.png-4d2e13944c923b0d476d57f53c1fbf6b.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_04.png-305c5c1a00244319d3c9cde06942fa3b.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_04.png-305c5c1a00244319d3c9cde06942fa3b.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_05.png-2532dee86b65ff725bc19bd853711035.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_05.png-2532dee86b65ff725bc19bd853711035.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_06.png-03ad5381179eb68bcd45f2d637015e00.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_06.png-03ad5381179eb68bcd45f2d637015e00.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_07.png-5e5353662ce16fcd44c911cea416cc18.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_07.png-5e5353662ce16fcd44c911cea416cc18.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_08.png-03c658167944e108810cf258a470775f.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_08.png-03c658167944e108810cf258a470775f.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_09.png-78bb4605babd72b5631ea0705a52586d.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_09.png-78bb4605babd72b5631ea0705a52586d.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_10.png-dfac3bdb1bef9609a3e96a73afa493d5.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_10.png-dfac3bdb1bef9609a3e96a73afa493d5.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_11.png-6de3b04b7380a4e000a3b980cbbd879d.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_11.png-6de3b04b7380a4e000a3b980cbbd879d.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_12.png-92a0e726cac522cb38ff9d082af2a7dc.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_12.png-92a0e726cac522cb38ff9d082af2a7dc.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_13.png-f54f8a38ae99ff7efc957640eac25b7b.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_13.png-f54f8a38ae99ff7efc957640eac25b7b.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_14.png-69915263841e7f575760f6006ace7812.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_14.png-69915263841e7f575760f6006ace7812.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_15.png-4fbe2c0874873e20ee8e8d9d8eda5b7c.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_15.png-4fbe2c0874873e20ee8e8d9d8eda5b7c.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_16.png-e48e5f01235de4d6fae571bb51953988.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_16.png-e48e5f01235de4d6fae571bb51953988.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_17.png-fe92bd7ce23cc4a954c83a851be4eb86.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_17.png-fe92bd7ce23cc4a954c83a851be4eb86.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_18.png-e48997b102d761fd8f3721be0d6c7cc8.ctex",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/imported/tile_18.png-e48997b102d761fd8f3721be0d6c7cc8.md5",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".godot/uid_cache.bin",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".tools/pre_python/__pycache__/brotli.cpython-312.pyc",
+      "reason": "regenerable cache or local environment"
+    },
+    {
+      "path": ".tools/pre_python/_brotli.cp312-win_amd64.pyd",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/INSTALLER",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/licenses/LICENSE",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/METADATA",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/RECORD",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/REQUESTED",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/top_level.txt",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli-1.2.0.dist-info/WHEEL",
+      "reason": "Windows-specific cached Python dependency"
+    },
+    {
+      "path": ".tools/pre_python/brotli.py",
+      "reason": "Windows-specific cached Python dependency"
+    }
+  ],
+  "not_in_scope": [
+    "Mac迁移包 (this output directory)",
+    "OS-installed apps, templates and user save data"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 83,
+      "sha256": "14189cbd3539e880875fe197ed1284bf97f2a97dfe15336297b761f43acae01d"
+    },
+    {
+      "path": ".tools/motion_check/frame_0.png",
+      "bytes": 1424808,
+      "sha256": "a3ebec59b7d21c1d282c44cd4497cab882fb50cae60828e00f06d7b72c46e6d2"
+    },
+    {
+      "path": ".tools/motion_check/frame_140.png",
+      "bytes": 1255805,
+      "sha256": "065466ba09986270361f9d255c44535c81bbb08f47959e5f1f7a6339441197f5"
+    },
+    {
+      "path": ".tools/motion_check/frame_430.png",
+      "bytes": 1001289,
+      "sha256": "683f986023d1c4eb7d8039501c84dc895ee35f7b6241f583df4312ef50ff6561"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_15.png",
+      "bytes": 1195683,
+      "sha256": "6f27943c144894b93707dd0fae0b8a0fb75f16a1f34ae6b885aa12bdf26c9630"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_155.png",
+      "bytes": 1353555,
+      "sha256": "9c63d73fb0b95278635f968260ff53eb15441ad4378812c26d8bf0a5900e5e56"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_340.png",
+      "bytes": 1345167,
+      "sha256": "94d053c49c508b2bc8ba25a032aa9e02c024b6a5cbdd61db64d3e6f9514e0097"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_490.png",
+      "bytes": 841134,
+      "sha256": "965948f3ecf9871451ea27f0ef3a61f8c750c0f0ff055d26c48f388f389d916e"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_545.png",
+      "bytes": 931711,
+      "sha256": "f1119a4d0f50ca4a1522060ced1ab85424ace8e1127781daa6aab5e367659d1a"
+    },
+    {
+      "path": ".tools/motion_check_v4/frame_75.png",
+      "bytes": 1557189,
+      "sha256": "1ace5fbfbf4d582cf2b1ed2dac01c35d716abcd797621d75d73ec6edb8c23cc3"
+    },
+    {
+      "path": ".tools/pre_check.js",
+      "bytes": 16604,
+      "sha256": "5730344243ba1edeb022722720740a0e0a7cb267fe428e7a2084a8aa2d6f4500"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC-copyright.txt",
+      "bytes": 77,
+      "sha256": "fd048420acfd96c38fa4674263284dcb1f0e43fb7a60822dd3d34d72b890d8da"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf",
+      "bytes": 10594988,
+      "sha256": "ada12fe7cf72ad5ba1f760c46ac018aa0ac3e74c0188edb56f76952697cb9b86"
+    },
+    {
+      "path": "assets/fonts/NotoSansSC.ttf.import",
+      "bytes": 767,
+      "sha256": "a889df21d8817ed65ce26b05bd7b68791388711561ae43c8d3456718574c070e"
+    },
+    {
+      "path": "assets/fonts/NotoSerifSC-copyright.txt",
+      "bytes": 43,
+      "sha256": "c92548df3503bef01937a4529d5514bc55ffa4a29e3d8be71daf6deacbfdc64c"
+    },
+    {
+      "path": "assets/fonts/NotoSerifSC.ttf",
+      "bytes": 14852600,
+      "sha256": "8935346b18f52d9c2addf41096f8a746a0d9a4364b5e5908f0adf3a51bfd6bd2"
+    },
+    {
+      "path": "assets/fonts/NotoSerifSC.ttf.import",
+      "bytes": 771,
+      "sha256": "3f25df5ddf46e373762dea6082a2027f53701fbdef72aedf03e7ba1ef9a4b5d0"
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "assets/icon.svg",
+      "bytes": 476,
+      "sha256": "6a7ca13f1a5c815316f492c84398eba588ce68658448e000e96a984fe19a528c"
+    },
+    {
+      "path": "assets/icon.svg.import",
+      "bytes": 1020,
+      "sha256": "d8d5748db182b4b7a2d94f0bb98e78623c9bb0ee98baddaf9159e43912af8f8e"
+    },
+    {
+      "path": "assets/painting/overview.jpg",
+      "bytes": 305714,
+      "sha256": "3b2a24cfbbc25d691647b1bb0e5601691d2e181910be09c339d30d3f419994bd"
+    },
+    {
+      "path": "assets/painting/overview.jpg.import",
+      "bytes": 944,
+      "sha256": "d1203f482edcf3532489c2643e51887841ca46660ac27fe88f075c9604d995e2"
+    },
+    {
+      "path": "assets/painting/source.json",
+      "bytes": 2719,
+      "sha256": "90cd55bc10b0ac0053b214d243afd0130f8c60e109ca9d8dfffbafdcad91ecbc"
+    },
+    {
+      "path": "assets/painting/tile_00.png",
+      "bytes": 7875138,
+      "sha256": "67aad61c120c61b18257bc1a52547a78d91cdc900d98bc80e5c794bbd0d88307"
+    },
+    {
+      "path": "assets/painting/tile_00.png.import",
+      "bytes": 939,
+      "sha256": "d8725b9ece5d2a4c58064ccbbc7e8bbf636ed0f2d4568eaddc7706f8b032424f"
+    },
+    {
+      "path": "assets/painting/tile_01.png",
+      "bytes": 8555588,
+      "sha256": "6945a1d6a72c9f52cae22d0a7304b32bbce655542025b287d940f157859833bb"
+    },
+    {
+      "path": "assets/painting/tile_01.png.import",
+      "bytes": 940,
+      "sha256": "c221d34339195801ca5a1261d29e70e275dd1216da52cf8058a7459d2f45af29"
+    },
+    {
+      "path": "assets/painting/tile_02.png",
+      "bytes": 8632120,
+      "sha256": "8387e537ecc1beea1f1916302fc66fa2b3005f37d938d13d086952498743ddb0"
+    },
+    {
+      "path": "assets/painting/tile_02.png.import",
+      "bytes": 939,
+      "sha256": "88fd2fa8f7e8433daab87bb50e1c3617fc9364256e1f46ae320665ff4df6ed11"
+    },
+    {
+      "path": "assets/painting/tile_03.png",
+      "bytes": 8521303,
+      "sha256": "41e9ac03b3c9d24ed6727b02889366d3f79657d59243f71c4c6d365593c6a600"
+    },
+    {
+      "path": "assets/painting/tile_03.png.import",
+      "bytes": 940,
+      "sha256": "24b208cbb6c90750415757805e59a5c3b3b614e913109c3e2c740e0757046f62"
+    },
+    {
+      "path": "assets/painting/tile_04.png",
+      "bytes": 8406597,
+      "sha256": "fa4f6d9d001b04ee5354fe1ee029bca27c9ba9aa0cc8f6d1470e24bca2e7228d"
+    },
+    {
+      "path": "assets/painting/tile_04.png.import",
+      "bytes": 940,
+      "sha256": "053ef2ed7b209816caa154d7aa3dd62631aebeaf92412766910b722e71aabcad"
+    },
+    {
+      "path": "assets/painting/tile_05.png",
+      "bytes": 8483131,
+      "sha256": "078abcf7bd983db1ea6786594c169179edff420aa2f807ef0160f078077cad3a"
+    },
+    {
+      "path": "assets/painting/tile_05.png.import",
+      "bytes": 940,
+      "sha256": "446557f143375c0e371572d512869dbe45afa0cc9f6c55ee4958a45e5d3eb81c"
+    },
+    {
+      "path": "assets/painting/tile_06.png",
+      "bytes": 8558249,
+      "sha256": "198f542eab43315e41354884084cc2f1a9cee026c6c5f5c6181ca2e649d86ab9"
+    },
+    {
+      "path": "assets/painting/tile_06.png.import",
+      "bytes": 939,
+      "sha256": "f9fa051ef75f85d83ae8c8d342363a4eac7b8bdf057509290d1531da4f16a784"
+    },
+    {
+      "path": "assets/painting/tile_07.png",
+      "bytes": 8437828,
+      "sha256": "b6f6fe8c058725fe4cb7ef5211c3819d86e05af482e38d3ed03335442d3cb782"
+    },
+    {
+      "path": "assets/painting/tile_07.png.import",
+      "bytes": 940,
+      "sha256": "355950740bacf5560905257cbe0163741ac95ed49dfb64c8a75b838733f814fb"
+    },
+    {
+      "path": "assets/painting/tile_08.png",
+      "bytes": 8448306,
+      "sha256": "93b2208f24197988a602fdd023d080123754c2d22a3e56c38f88d00bfe72dbe9"
+    },
+    {
+      "path": "assets/painting/tile_08.png.import",
+      "bytes": 940,
+      "sha256": "dfe4128e5c4468a984e6b6bbf53e4e4258c5addaf42177f516da932e39b5cad4"
+    },
+    {
+      "path": "assets/painting/tile_09.png",
+      "bytes": 8601013,
+      "sha256": "5a7c54ccfa124b3a2293e686f2e0d97bc0762e526191d3a4b0d486a3a402be53"
+    },
+    {
+      "path": "assets/painting/tile_09.png.import",
+      "bytes": 939,
+      "sha256": "1d89fe7c98718ab7064bd1f1d8938fc9bf8d49388f2badb7cb6714d9b5c55783"
+    },
+    {
+      "path": "assets/painting/tile_10.png",
+      "bytes": 8530468,
+      "sha256": "27a87a7300357c5687404cc4826db18817a81e64c8bd59bcec04ada6ab9840a6"
+    },
+    {
+      "path": "assets/painting/tile_10.png.import",
+      "bytes": 940,
+      "sha256": "0edb39997206491d6075e221529a74bc34484cbdf275684b056c183fea68fbc7"
+    },
+    {
+      "path": "assets/painting/tile_11.png",
+      "bytes": 8155985,
+      "sha256": "47028d8f0ab8559d5cc6c63718c62af45a06a7e7e4ad9fe857980e2f1240c1c2"
+    },
+    {
+      "path": "assets/painting/tile_11.png.import",
+      "bytes": 940,
+      "sha256": "2fb6b29ee944e0eca3217c105e63842e9d8e57a7ec0eadccd9ae528ed57574cd"
+    },
+    {
+      "path": "assets/painting/tile_12.png",
+      "bytes": 7947304,
+      "sha256": "68a458e92cc8d1202a74631ad7e9ed63c1fe110b4b35fb9d7ac588c94eb1c4e2"
+    },
+    {
+      "path": "assets/painting/tile_12.png.import",
+      "bytes": 940,
+      "sha256": "4bb2d165f6382b5d75f2a3b866227daa849ec6916d633b38c785adabbbabf1f5"
+    },
+    {
+      "path": "assets/painting/tile_13.png",
+      "bytes": 8259821,
+      "sha256": "99aa2ab7fae86ea99b76866d1f1f6bbd753bf42f8befb21ac8f40f8bcb68167c"
+    },
+    {
+      "path": "assets/painting/tile_13.png.import",
+      "bytes": 940,
+      "sha256": "86eb6ddc01be82a8aea3412dc72a941a5bbc6b9ddaedb7b76cc7253ab875f8cb"
+    },
+    {
+      "path": "assets/painting/tile_14.png",
+      "bytes": 8205070,
+      "sha256": "8d3056fbe4a51b09c8eb58fc987e68c600ae82562252a0b58d724462f498d1cb"
+    },
+    {
+      "path": "assets/painting/tile_14.png.import",
+      "bytes": 940,
+      "sha256": "542e0de15623e7c3e80837c2efe7df1fa3e9e6a69f2618342a39b142fcfb2930"
+    },
+    {
+      "path": "assets/painting/tile_15.png",
+      "bytes": 8366758,
+      "sha256": "0439c4846afe1356afdda9095d4a3ed2582ea7bfaa3085fcf9b634b20cce14dc"
+    },
+    {
+      "path": "assets/painting/tile_15.png.import",
+      "bytes": 940,
+      "sha256": "8e72d2ce77f3cfe676afa85f3d3b41e3939743ef5efce525df1573443dfa285f"
+    },
+    {
+      "path": "assets/painting/tile_16.png",
+      "bytes": 8015400,
+      "sha256": "53f74e7470b9eb5df1c40202c007dcc75598f16aed6f4a8c787be42bf7c1aebc"
+    },
+    {
+      "path": "assets/painting/tile_16.png.import",
+      "bytes": 940,
+      "sha256": "4ebf655c19348c2cb2832ac77225f416333b53727c2d0931d6b4be7adf885001"
+    },
+    {
+      "path": "assets/painting/tile_17.png",
+      "bytes": 7814970,
+      "sha256": "6c92e68e3aa3faddd18bf6f4c3532487d47afe045739e6b99a8538cabdc54495"
+    },
+    {
+      "path": "assets/painting/tile_17.png.import",
+      "bytes": 940,
+      "sha256": "8dd353e6cf66d4ec3ffcef780c9e41c955d80d920572995efb102b1b76ebdd36"
+    },
+    {
+      "path": "assets/painting/tile_18.png",
+      "bytes": 5260374,
+      "sha256": "d5fc3cc6edf2cd01b4e4d7d6f7f43c0395d3264724b4fdcae1a197401b1e7178"
+    },
+    {
+      "path": "assets/painting/tile_18.png.import",
+      "bytes": 940,
+      "sha256": "6c6978d694e8632934cf200c731055bf2fd5266c05aab7b18e5ca95571f11358"
+    },
+    {
+      "path": "build/Bianliang.exe",
+      "bytes": 253342432,
+      "sha256": "900ee0f488856522700d6faf6aef76277d65f7a82f5cb72d2dd203408a188d87"
+    },
+    {
+      "path": "build/Bianliang_v3.exe",
+      "bytes": 253363512,
+      "sha256": "45beee2c8e2f390533b740583a74fcc9a6a52484744f6b3bebc59cb57dc37262"
+    },
+    {
+      "path": "build/Bianliang_v4.exe",
+      "bytes": 253371760,
+      "sha256": "563515b382ce1742dac78aa22594c02d0b872a02086df96f26dc5b058c58a8b4"
+    },
+    {
+      "path": "build/capture_v4.log",
+      "bytes": 223,
+      "sha256": "b5c27ed60ee25a4a5ee4af014353b0dab10d0a20eed921907142b4d4e7177038"
+    },
+    {
+      "path": "build/export_v2.log",
+      "bytes": 8677,
+      "sha256": "fd704ef7feca775b0fb5c4debb4ff72b74fdffb0cca4d861dd4cd7a793547fc3"
+    },
+    {
+      "path": "build/export_v3.log",
+      "bytes": 9601,
+      "sha256": "81fe5fd03b15a621dc29f1c616ac0a6fb54b404a6344d4097e6140f54ac7593e"
+    },
+    {
+      "path": "build/export_v4.log",
+      "bytes": 10409,
+      "sha256": "ac0a7a5d652dce5db8c9fcaf09af968db15a461074aaeb8dd12fa3452375b1d7"
+    },
+    {
+      "path": "build/import_v4.log",
+      "bytes": 1662,
+      "sha256": "6b43ca36860ac10639f554a83293fc09bdf223cf167999a554e0b401a8631510"
+    },
+    {
+      "path": "build/licenses/Godot-COPYRIGHT.txt",
+      "bytes": 100108,
+      "sha256": "cb1980c88089573bcacd7221d777c689bb8bbd778799f24c27fca0fe5f774d6d"
+    },
+    {
+      "path": "build/licenses/Godot-LICENSE.txt",
+      "bytes": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "path": "build/licenses/Noto-OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "build/licenses/NotoSansSC-copyright.txt",
+      "bytes": 77,
+      "sha256": "fd048420acfd96c38fa4674263284dcb1f0e43fb7a60822dd3d34d72b890d8da"
+    },
+    {
+      "path": "build/licenses/NotoSerifSC-copyright.txt",
+      "bytes": 43,
+      "sha256": "c92548df3503bef01937a4529d5514bc55ffa4a29e3d8be71daf6deacbfdc64c"
+    },
+    {
+      "path": "build/licenses/Painting-source.txt",
+      "bytes": 1250,
+      "sha256": "8cbc0b639856d826d8e1923007ca674998e739b71f2b4155f09c7124cf663942"
+    },
+    {
+      "path": "build/motion_v4.log",
+      "bytes": 809,
+      "sha256": "256744ef33560f6be00c367594ce0c79aee48d97d6493492f71f0e744b7ad5f2"
+    },
+    {
+      "path": "build/self_test_v4.log",
+      "bytes": 576,
+      "sha256": "cb19812b03c14213bea97b92f0d17a39f45d2debdb0c207a864dbf5142258c86"
+    },
+    {
+      "path": "build/THIRD_PARTY_NOTICES.txt",
+      "bytes": 1373,
+      "sha256": "24837259f5fb76deaba15037bdfeab478eca61e4d391c8090ce0b96f417e9bde"
+    },
+    {
+      "path": "build/verify_release_v2.log",
+      "bytes": 634,
+      "sha256": "13391ea5010bf5c4b0aa0b9c2c987db11942c6dca196221af2162901e2c85b7a"
+    },
+    {
+      "path": "build/verify_release_v3.log",
+      "bytes": 828,
+      "sha256": "7bd239023072b40e88eb933d977bdd8cc1c1f90a576827b5ce0f58ff217030fd"
+    },
+    {
+      "path": "build/verify_release_v4.log",
+      "bytes": 830,
+      "sha256": "23059309397fafe3dc4cd633ca2b7698c3d8e2e01a4ea2323ced45074b717832"
+    },
+    {
+      "path": "build/使用说明.txt",
+      "bytes": 7586,
+      "sha256": "45f8a901fb719dc73593713491078c7f6b0853bb481c911e1c6165e0b5e1e773"
+    },
+    {
+      "path": "build/验证记录.txt",
+      "bytes": 3256,
+      "sha256": "2ccbbdebeb55b1e0064eb35dd99880e5899410c97e7da4b409bb313334e24ac2"
+    },
+    {
+      "path": "captures/.gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "captures/01_title.png",
+      "bytes": 1309434,
+      "sha256": "bd619796bcb95c8de1d4cc1fed595741cded4c8a1debc1e4894afde3b7753586"
+    },
+    {
+      "path": "captures/01_title.png.import",
+      "bytes": 937,
+      "sha256": "c99d7c6de0f2fb965715d5af9dfe38204d8c5745199ee5fe172d8b85ed576309"
+    },
+    {
+      "path": "captures/02_market.png",
+      "bytes": 1144845,
+      "sha256": "224cb4df66c59026d776842ec6a96ed952eb1d02f79d5a9bbf41d2daf49a747e"
+    },
+    {
+      "path": "captures/02_market.png.import",
+      "bytes": 940,
+      "sha256": "0dd31e6de17dc8ad72ca6eedb8353c00db818597ebb5b2e74f26f9d5de2bfdc0"
+    },
+    {
+      "path": "captures/03_bargain.png",
+      "bytes": 690936,
+      "sha256": "bbec0e2d792616824318b1a0a4b16edb9efa9bebb88b38a9a460711d5e86ffcc"
+    },
+    {
+      "path": "captures/03_bargain.png.import",
+      "bytes": 943,
+      "sha256": "69f75c62964b1c4b625f7029dcaeeaad43b32f36017087b0b5e180c59e421ac2"
+    },
+    {
+      "path": "captures/04_bridge.png",
+      "bytes": 1007498,
+      "sha256": "9e909d320f63ce4fbb5101a0743a712d1ef614a324de42a04560b5201d0e75be"
+    },
+    {
+      "path": "captures/04_bridge.png.import",
+      "bytes": 940,
+      "sha256": "6ea8e83ca5b5947985a9b38fb15bd9ef1d0f38707fc9fa103b5b6a69fbcc401d"
+    },
+    {
+      "path": "captures/05_boat.png",
+      "bytes": 973261,
+      "sha256": "81d685ad7dbb5418d31bd32f9b157fbe4528a56ecec59ac02aff1fa24de6e9b1"
+    },
+    {
+      "path": "captures/05_boat.png.import",
+      "bytes": 934,
+      "sha256": "f855373e3e2ac158e95211589490a93168cc581f129555f363b0240c69453705"
+    },
+    {
+      "path": "captures/06_tavern.png",
+      "bytes": 699599,
+      "sha256": "3b18d71485810074c7a12d57f32847933f3804b0d7912981aaf3f1c6ad470727"
+    },
+    {
+      "path": "captures/06_tavern.png.import",
+      "bytes": 940,
+      "sha256": "31e05a5468574cf54f5a60956c476a68b7df8e4fe3538fa2a00b809b667eae9e"
+    },
+    {
+      "path": "captures/07_second_person.png",
+      "bytes": 665855,
+      "sha256": "e144890a1b72b5386735dfd1111e09ef739b912fc4a5b5f581666c01c134af5a"
+    },
+    {
+      "path": "captures/07_second_person.png.import",
+      "bytes": 961,
+      "sha256": "0808eea40260608df94a8741a891e1dfdf5fddb6caaf1d23f49f8edf0e2474b4"
+    },
+    {
+      "path": "captures/08_theatre.png",
+      "bytes": 534434,
+      "sha256": "562a711e2e2dddcd56b872a6ca9a252b6c1a9fe335baed6a8c262a0ea8647de2"
+    },
+    {
+      "path": "captures/08_theatre.png.import",
+      "bytes": 943,
+      "sha256": "e2260049479cb4b8be9c8733aef8be106adb449617f1ecac5de327b7cc9b935c"
+    },
+    {
+      "path": "captures/09_summary.png",
+      "bytes": 440590,
+      "sha256": "c600343229f57ded57cb24b15747eef62b4d448b07df9fefe8002b4aeaf5f520"
+    },
+    {
+      "path": "captures/09_summary.png.import",
+      "bytes": 943,
+      "sha256": "899f5b9ddef7c0641f45b0cc6dd6c1f1c721c049cd0b0060a06e4f0967d16dae"
+    },
+    {
+      "path": "captures/10_chapters.png",
+      "bytes": 372918,
+      "sha256": "356a7187263243a1e016df210626563903319dd5169055ca22ef239bc9bd855e"
+    },
+    {
+      "path": "captures/10_chapters.png.import",
+      "bytes": 946,
+      "sha256": "db83bd22a479fd8a10650117c2399ae308fa62d0b49818b3f9b724d8cd1004f0"
+    },
+    {
+      "path": "captures/11_journal.png",
+      "bytes": 357478,
+      "sha256": "aac01b8276b497bd21c00158bfb35ed605ab8115a7de8b2abe0cd75dc0951181"
+    },
+    {
+      "path": "captures/11_journal.png.import",
+      "bytes": 943,
+      "sha256": "21020a762c4170da690cc39ee4e0e3bfb255d6c6051ad0c7cee427aa1251db8a"
+    },
+    {
+      "path": "captures/release_v2/01_title.png",
+      "bytes": 1143540,
+      "sha256": "b3b77d0032c6483104debf8b915e30c9487e929a86b2dd9bc2becd74a35683dc"
+    },
+    {
+      "path": "captures/release_v2/02_market.png",
+      "bytes": 1593754,
+      "sha256": "b332aa9001d0e38df6cf8dafcdcb305b1440c7ca01fbbecbf0795b618f1efd9b"
+    },
+    {
+      "path": "captures/release_v2/03_bargain.png",
+      "bytes": 1182663,
+      "sha256": "00336bd41896e29942252c8e9549716118c3e4921a7ca0660c31835a81f54226"
+    },
+    {
+      "path": "captures/release_v2/04_bridge.png",
+      "bytes": 1218418,
+      "sha256": "134e68581f87717677e76894b48f1e94b581d08650132eb5ad88a55d969ba826"
+    },
+    {
+      "path": "captures/release_v2/05_boat.png",
+      "bytes": 1238095,
+      "sha256": "e4801eb026c5b111dea286631209b2e5476e464f8de5c3529e4d3b43c6ca944a"
+    },
+    {
+      "path": "captures/release_v2/06_tavern.png",
+      "bytes": 848892,
+      "sha256": "63b0dbfe8e7dbb86fec194409c5938487f42911dc87f5495d05d40f831c36fd7"
+    },
+    {
+      "path": "captures/release_v2/07_second_person.png",
+      "bytes": 915157,
+      "sha256": "e599f76414ff4612f881eba8ce10c9a87dcb9dbbc64c7d8133c172b3b80c36ca"
+    },
+    {
+      "path": "captures/release_v2/08_theatre.png",
+      "bytes": 757751,
+      "sha256": "6e94d9e702a6211fac7668de09fa414b07aefa98e42dc1e5e9ed41983e6d9af2"
+    },
+    {
+      "path": "captures/release_v2/09_summary.png",
+      "bytes": 529511,
+      "sha256": "307dc68426c2f857ac7180b74c6bb37fb5c075af62d68e0754099db4b36ba856"
+    },
+    {
+      "path": "captures/release_v2/10_chapters.png",
+      "bytes": 447372,
+      "sha256": "5487c6b4dbd1654dad5b82a0a0e831344b9c417e8b33834e1c354ba9c34b9fd1"
+    },
+    {
+      "path": "captures/release_v2/11_journal.png",
+      "bytes": 420066,
+      "sha256": "d3f2ea3f2e6e7a3a90515f1c8140774bf9246d53c97c22535278dcc43ac0c4a4"
+    },
+    {
+      "path": "captures/release_v2/12_original_pixels.png",
+      "bytes": 1327927,
+      "sha256": "953c794ad4c2849a23acc2191b19326ccc9ca0df5508b36feaef583db572a6a4"
+    },
+    {
+      "path": "captures/release_v2/13_full_scroll.png",
+      "bytes": 429861,
+      "sha256": "7d6d5b4bc77ba9c3444cfa8d1dc5676969f09d77c42411c5eeea9482ec95418d"
+    },
+    {
+      "path": "captures/release_v3/01_title.png",
+      "bytes": 1143561,
+      "sha256": "1145d57ae404c20de18a95fce782cf8738fc4fe4c0c4709204f25ad69867800a"
+    },
+    {
+      "path": "captures/release_v3/02_market.png",
+      "bytes": 1662476,
+      "sha256": "6888ac0fbe83055e4b44a8335b7f5c641b00cfda742bf458723da9207ec31cc6"
+    },
+    {
+      "path": "captures/release_v3/03_bargain.png",
+      "bytes": 1250892,
+      "sha256": "31d50e2dd1f3a48380dca26e8ddf4f8e9b710e45d7f83ccccd5338c9bb2504f8"
+    },
+    {
+      "path": "captures/release_v3/04_bridge.png",
+      "bytes": 1671767,
+      "sha256": "536471dfb335f79eec848045953c5829176361bc75999ba72b87be7d59f1a117"
+    },
+    {
+      "path": "captures/release_v3/05_boat.png",
+      "bytes": 1623704,
+      "sha256": "1c34f0f24914cd932ce3454687ecb6e780c31899223a897443373dcc7bbf107f"
+    },
+    {
+      "path": "captures/release_v3/06_tavern.png",
+      "bytes": 893289,
+      "sha256": "c3b85c7466b49755320ffddc9412332fa64def0612aa463685a745515007dcfe"
+    },
+    {
+      "path": "captures/release_v3/07_second_person.png",
+      "bytes": 949306,
+      "sha256": "8e8e7672b589cfb10f52a14fabe2f5a6423f23272c3aa3faea6ff41409494aa8"
+    },
+    {
+      "path": "captures/release_v3/08_theatre.png",
+      "bytes": 780173,
+      "sha256": "4146376f297860597f89583301b52c5fe19a611ff87b81762eb084ec3d296fc2"
+    },
+    {
+      "path": "captures/release_v3/09_summary.png",
+      "bytes": 559258,
+      "sha256": "19e31b22acf0bf86daa4032d1e9a28ea588ad564cc02d36ab73123dbd08fa370"
+    },
+    {
+      "path": "captures/release_v3/10_chapters.png",
+      "bytes": 468483,
+      "sha256": "b5f5f1ac77562d52eb01ea36cd39154b716f87519e05ac44120df2e05d7720e1"
+    },
+    {
+      "path": "captures/release_v3/11_journal.png",
+      "bytes": 441758,
+      "sha256": "a483c596d18df05bbc338fd5da67c20f32495fbb43b6e736df0c3712b3de6a0e"
+    },
+    {
+      "path": "captures/release_v3/12_original_pixels.png",
+      "bytes": 1327959,
+      "sha256": "9677d7383fb6dee9662ebe7b58a480b37a4dc066247263914bf39d9ae8e8debb"
+    },
+    {
+      "path": "captures/release_v3/13_full_scroll.png",
+      "bytes": 429892,
+      "sha256": "73a943ea1109e81446bc916f3fb8a9920b663c5b886fdf69d0b1b6e7d286ef2b"
+    },
+    {
+      "path": "captures/release_v3/14_scroll_start.png",
+      "bytes": 1660712,
+      "sha256": "d7c52d6cace6cecb4c8ff6cbdbc6236953feedf0d4b0cff781bea4ca7b00ffa1"
+    },
+    {
+      "path": "captures/release_v3/15_scroll_west.png",
+      "bytes": 1612755,
+      "sha256": "232f96a1dc770b222c3769f25ef461fe3845ff52efc7966d43b2f13a21f64436"
+    },
+    {
+      "path": "captures/release_v3/16_scroll_east.png",
+      "bytes": 1612544,
+      "sha256": "b5e1b3e96045f85558b90e187428c931eb86dcfd4c24d959e3909277d6dfb42d"
+    },
+    {
+      "path": "captures/release_v4/01_title.png",
+      "bytes": 2381060,
+      "sha256": "9bf779625a39cff276d18342e46c15e233ffe496edb40afd272c921e17c645a4"
+    },
+    {
+      "path": "captures/release_v4/02_market.png",
+      "bytes": 2078900,
+      "sha256": "d8c8d5df412847c54676cf65be8922386c7463d9d017da29107f8b6c8f231525"
+    },
+    {
+      "path": "captures/release_v4/03_bargain.png",
+      "bytes": 1611138,
+      "sha256": "5aafaab44d47dc5afe190a6dc5dab9e21697ca400c646ea7423b75fa516a9a23"
+    },
+    {
+      "path": "captures/release_v4/04_bridge.png",
+      "bytes": 2080663,
+      "sha256": "bdd8436c769f14ae1df105966129d71ca0ba0c21212e13a08de1ddeff6d9f312"
+    },
+    {
+      "path": "captures/release_v4/05_boat.png",
+      "bytes": 2065845,
+      "sha256": "3d66717d7b3404de6f39d3c87ae5478e0cc4798e34ba246e17c7afa9f837cacc"
+    },
+    {
+      "path": "captures/release_v4/06_tavern.png",
+      "bytes": 1373407,
+      "sha256": "0dcc5d8ad1488738e2857ea089e1fa3c910e8236e7a4a27ef50729acea1e7cf5"
+    },
+    {
+      "path": "captures/release_v4/07_second_person.png",
+      "bytes": 1439792,
+      "sha256": "b5698f5b64a52e1b0d553cffcb6f55de477f208034ba7235ffdf2363b81bafc2"
+    },
+    {
+      "path": "captures/release_v4/08_theatre.png",
+      "bytes": 1279233,
+      "sha256": "c029cd0193cb03d49658853dd37b168cd6ff1ce48db934578147344d636235c8"
+    },
+    {
+      "path": "captures/release_v4/09_summary.png",
+      "bytes": 559564,
+      "sha256": "a36dc5d29c43cb1271101579abc46e4643e0bcc641dabb7fed40fc14af49caab"
+    },
+    {
+      "path": "captures/release_v4/10_chapters.png",
+      "bytes": 469550,
+      "sha256": "f687de133eacfa92a837b0973efe9221064003f22c3f064424323cb313b2d936"
+    },
+    {
+      "path": "captures/release_v4/11_journal.png",
+      "bytes": 442401,
+      "sha256": "1b319884b04b5d57aecf66b226ef3ea447ad3ee9a6a31a089df351131db9cf34"
+    },
+    {
+      "path": "captures/release_v4/12_original_pixels.png",
+      "bytes": 2810231,
+      "sha256": "c541c2af800cd7f83901acf95cfad80f7c3feb8c73cfb301406b3403cd105e57"
+    },
+    {
+      "path": "captures/release_v4/13_full_scroll.png",
+      "bytes": 643941,
+      "sha256": "aa11ec428a123467cf11e4b0e3ef0c6afc9be62d433abb9d13801ca3a7997e09"
+    },
+    {
+      "path": "captures/release_v4/14_scroll_start.png",
+      "bytes": 2076128,
+      "sha256": "67b1cd88ff79800e9c2c94f43508148372ac347bfea3fb7053036ce33663f9fe"
+    },
+    {
+      "path": "captures/release_v4/15_scroll_west.png",
+      "bytes": 1958798,
+      "sha256": "9ce1a3a15fbe1837ebd9e573a78af19f8ac9a2a9a6a320eb38d1f0a7b88e359a"
+    },
+    {
+      "path": "captures/release_v4/16_scroll_east.png",
+      "bytes": 1952113,
+      "sha256": "79e8fb02f2ee2fb129e45773d48aaca4c3876d4faaee6e11da63a9744618ba1e"
+    },
+    {
+      "path": "captures/v2/01_title.png",
+      "bytes": 1143540,
+      "sha256": "b3b77d0032c6483104debf8b915e30c9487e929a86b2dd9bc2becd74a35683dc"
+    },
+    {
+      "path": "captures/v2/01_title.png.import",
+      "bytes": 939,
+      "sha256": "b6930a2c7f41868bb3c40e8efbb27bce637c6339a01b62ea41b70d236a7078e7"
+    },
+    {
+      "path": "captures/v2/02_market.png",
+      "bytes": 1593613,
+      "sha256": "ef646ff1af11189cd4fa3d1d574868d214fde6eef7eb9e3ef966e55424027c49"
+    },
+    {
+      "path": "captures/v2/02_market.png.import",
+      "bytes": 941,
+      "sha256": "c906e16bb79f47865cafd5b2182cabf54ead443cc3abcc307f818e700c289399"
+    },
+    {
+      "path": "captures/v2/03_bargain.png",
+      "bytes": 1182682,
+      "sha256": "b04241ec199005c9d5d7daf395358286bf5185df7a2b39a14857c2cf3ba7f905"
+    },
+    {
+      "path": "captures/v2/03_bargain.png.import",
+      "bytes": 946,
+      "sha256": "29c691774c6296b5bb660f4d88590fb0dc0807f652b50b7e2ff8b15b457e4497"
+    },
+    {
+      "path": "captures/v2/04_bridge.png",
+      "bytes": 1218111,
+      "sha256": "9b0c56795ca033e5fcb509acd92350ce0f9ba08be9daf16955f3d3656b5c5ff2"
+    },
+    {
+      "path": "captures/v2/04_bridge.png.import",
+      "bytes": 943,
+      "sha256": "e442db81f8ef4d8b491d3d9e950544a12c266c73ead650057f5f710150596a06"
+    },
+    {
+      "path": "captures/v2/05_boat.png",
+      "bytes": 1238724,
+      "sha256": "458884e8b191fd1de2253c6e9900d4496171b6eb9b2e31e7888895eeafeee24a"
+    },
+    {
+      "path": "captures/v2/05_boat.png.import",
+      "bytes": 937,
+      "sha256": "b6be441dcc1e575cc573a0730ab25def5ecea76c02de45538ab668a7cb108593"
+    },
+    {
+      "path": "captures/v2/06_tavern.png",
+      "bytes": 848486,
+      "sha256": "94e63dba751bb67be31d0dda6dae662882b8f46b901310fcd770bd3e1ccb4b29"
+    },
+    {
+      "path": "captures/v2/06_tavern.png.import",
+      "bytes": 943,
+      "sha256": "70e9f1c4396c922ab5b66a0295e14e33a120108c6fe3f787078e3cefc6b0fe49"
+    },
+    {
+      "path": "captures/v2/07_second_person.png",
+      "bytes": 915441,
+      "sha256": "99b8c07eb13ec946ebc269fc2a32c61180827ae1de6999a6307c1cf52b3d45b8"
+    },
+    {
+      "path": "captures/v2/07_second_person.png.import",
+      "bytes": 963,
+      "sha256": "d7d66eab67b6c8c917a7a59333fe6a00c67099bc345f40975a5bb8894230f573"
+    },
+    {
+      "path": "captures/v2/08_theatre.png",
+      "bytes": 757593,
+      "sha256": "e45dd84da663d6bc064f91b8f1d83014b8e56e0a347bcecab164ed8ce69835d5"
+    },
+    {
+      "path": "captures/v2/08_theatre.png.import",
+      "bytes": 946,
+      "sha256": "9b1e14a856b01a4a2db32a1d6221e722282e7fd16daee19fbf0bea203974ab12"
+    },
+    {
+      "path": "captures/v2/09_summary.png",
+      "bytes": 529081,
+      "sha256": "a0e40a3d326da5a4bbaebc58921d0abe86d7423ac4de0034f0314262ab5f1b9d"
+    },
+    {
+      "path": "captures/v2/09_summary.png.import",
+      "bytes": 946,
+      "sha256": "6828434e3383932112abd7e0da45767e3a13cbc3bf07afcc82d88980d1ef2bdf"
+    },
+    {
+      "path": "captures/v2/10_chapters.png",
+      "bytes": 447016,
+      "sha256": "ef702177ac2b39e060b944c4178b30e004baa5b7669bc481ae61ce7490d783ce"
+    },
+    {
+      "path": "captures/v2/10_chapters.png.import",
+      "bytes": 949,
+      "sha256": "b402dd89d668a5cf2934af94e659c6aa145a365be227e1e856a8e944e91fad29"
+    },
+    {
+      "path": "captures/v2/11_journal.png",
+      "bytes": 420743,
+      "sha256": "8c670f9bad02e1be1d457e337d4f054e2adb6968381ecda0388f98dd93eef4ab"
+    },
+    {
+      "path": "captures/v2/11_journal.png.import",
+      "bytes": 945,
+      "sha256": "96ffbe3aa49b72c0af2a49c4a05ba995887d155da8c7b2db75b9e5250dfed046"
+    },
+    {
+      "path": "captures/v2/12_original_pixels.png",
+      "bytes": 1327927,
+      "sha256": "953c794ad4c2849a23acc2191b19326ccc9ca0df5508b36feaef583db572a6a4"
+    },
+    {
+      "path": "captures/v2/12_original_pixels.png.import",
+      "bytes": 970,
+      "sha256": "8577ca3cfeec5762490455279698bf567c8b42adeafc9de3842bb85d9f5e7147"
+    },
+    {
+      "path": "captures/v2/13_full_scroll.png",
+      "bytes": 429861,
+      "sha256": "7d6d5b4bc77ba9c3444cfa8d1dc5676969f09d77c42411c5eeea9482ec95418d"
+    },
+    {
+      "path": "captures/v2/13_full_scroll.png.import",
+      "bytes": 958,
+      "sha256": "2a9eb9544704093f271407461c3af039085ac80b33e2b6a0fb6b86d19e2211ad"
+    },
+    {
+      "path": "captures/v3/01_title.png",
+      "bytes": 1143561,
+      "sha256": "1145d57ae404c20de18a95fce782cf8738fc4fe4c0c4709204f25ad69867800a"
+    },
+    {
+      "path": "captures/v3/02_market.png",
+      "bytes": 1662476,
+      "sha256": "6888ac0fbe83055e4b44a8335b7f5c641b00cfda742bf458723da9207ec31cc6"
+    },
+    {
+      "path": "captures/v3/03_bargain.png",
+      "bytes": 1250892,
+      "sha256": "31d50e2dd1f3a48380dca26e8ddf4f8e9b710e45d7f83ccccd5338c9bb2504f8"
+    },
+    {
+      "path": "captures/v3/04_bridge.png",
+      "bytes": 1671767,
+      "sha256": "536471dfb335f79eec848045953c5829176361bc75999ba72b87be7d59f1a117"
+    },
+    {
+      "path": "captures/v3/05_boat.png",
+      "bytes": 1623704,
+      "sha256": "1c34f0f24914cd932ce3454687ecb6e780c31899223a897443373dcc7bbf107f"
+    },
+    {
+      "path": "captures/v3/06_tavern.png",
+      "bytes": 893289,
+      "sha256": "c3b85c7466b49755320ffddc9412332fa64def0612aa463685a745515007dcfe"
+    },
+    {
+      "path": "captures/v3/07_second_person.png",
+      "bytes": 949306,
+      "sha256": "8e8e7672b589cfb10f52a14fabe2f5a6423f23272c3aa3faea6ff41409494aa8"
+    },
+    {
+      "path": "captures/v3/08_theatre.png",
+      "bytes": 780173,
+      "sha256": "4146376f297860597f89583301b52c5fe19a611ff87b81762eb084ec3d296fc2"
+    },
+    {
+      "path": "captures/v3/09_summary.png",
+      "bytes": 559258,
+      "sha256": "19e31b22acf0bf86daa4032d1e9a28ea588ad564cc02d36ab73123dbd08fa370"
+    },
+    {
+      "path": "captures/v3/10_chapters.png",
+      "bytes": 468483,
+      "sha256": "b5f5f1ac77562d52eb01ea36cd39154b716f87519e05ac44120df2e05d7720e1"
+    },
+    {
+      "path": "captures/v3/11_journal.png",
+      "bytes": 441758,
+      "sha256": "a483c596d18df05bbc338fd5da67c20f32495fbb43b6e736df0c3712b3de6a0e"
+    },
+    {
+      "path": "captures/v3/12_original_pixels.png",
+      "bytes": 1327959,
+      "sha256": "9677d7383fb6dee9662ebe7b58a480b37a4dc066247263914bf39d9ae8e8debb"
+    },
+    {
+      "path": "captures/v3/13_full_scroll.png",
+      "bytes": 429892,
+      "sha256": "73a943ea1109e81446bc916f3fb8a9920b663c5b886fdf69d0b1b6e7d286ef2b"
+    },
+    {
+      "path": "captures/v3/14_scroll_start.png",
+      "bytes": 1660712,
+      "sha256": "d7c52d6cace6cecb4c8ff6cbdbc6236953feedf0d4b0cff781bea4ca7b00ffa1"
+    },
+    {
+      "path": "captures/v3/15_scroll_west.png",
+      "bytes": 1612755,
+      "sha256": "232f96a1dc770b222c3769f25ef461fe3845ff52efc7966d43b2f13a21f64436"
+    },
+    {
+      "path": "captures/v3/16_scroll_east.png",
+      "bytes": 1612544,
+      "sha256": "b5e1b3e96045f85558b90e187428c931eb86dcfd4c24d959e3909277d6dfb42d"
+    },
+    {
+      "path": "captures/v3/motion_raw.avi",
+      "bytes": 70357624,
+      "sha256": "3a1fb8a663276b61d9a545f0c8f19ede978b3540af017d4b37d1f8696fa02d47"
+    },
+    {
+      "path": "captures/v3/横卷交互动效.mp4",
+      "bytes": 14161599,
+      "sha256": "e75a5e328bee14bd4520477d7e4aaa65ba2e40376ffcd9e4bf3c063de35228cf"
+    },
+    {
+      "path": "captures/v3/横向浏览预览.gif",
+      "bytes": 11713848,
+      "sha256": "443e1955a0f314830630423f682b7ff12eccbcb4c34a1e0bc32358f779bce01a"
+    },
+    {
+      "path": "captures/v4/01_title.png",
+      "bytes": 2381060,
+      "sha256": "9bf779625a39cff276d18342e46c15e233ffe496edb40afd272c921e17c645a4"
+    },
+    {
+      "path": "captures/v4/02_market.png",
+      "bytes": 2078900,
+      "sha256": "d8c8d5df412847c54676cf65be8922386c7463d9d017da29107f8b6c8f231525"
+    },
+    {
+      "path": "captures/v4/03_bargain.png",
+      "bytes": 1611138,
+      "sha256": "5aafaab44d47dc5afe190a6dc5dab9e21697ca400c646ea7423b75fa516a9a23"
+    },
+    {
+      "path": "captures/v4/04_bridge.png",
+      "bytes": 2080663,
+      "sha256": "bdd8436c769f14ae1df105966129d71ca0ba0c21212e13a08de1ddeff6d9f312"
+    },
+    {
+      "path": "captures/v4/05_boat.png",
+      "bytes": 2065845,
+      "sha256": "3d66717d7b3404de6f39d3c87ae5478e0cc4798e34ba246e17c7afa9f837cacc"
+    },
+    {
+      "path": "captures/v4/06_tavern.png",
+      "bytes": 1373407,
+      "sha256": "0dcc5d8ad1488738e2857ea089e1fa3c910e8236e7a4a27ef50729acea1e7cf5"
+    },
+    {
+      "path": "captures/v4/07_second_person.png",
+      "bytes": 1439792,
+      "sha256": "b5698f5b64a52e1b0d553cffcb6f55de477f208034ba7235ffdf2363b81bafc2"
+    },
+    {
+      "path": "captures/v4/08_theatre.png",
+      "bytes": 1279233,
+      "sha256": "c029cd0193cb03d49658853dd37b168cd6ff1ce48db934578147344d636235c8"
+    },
+    {
+      "path": "captures/v4/09_summary.png",
+      "bytes": 559564,
+      "sha256": "a36dc5d29c43cb1271101579abc46e4643e0bcc641dabb7fed40fc14af49caab"
+    },
+    {
+      "path": "captures/v4/10_chapters.png",
+      "bytes": 469550,
+      "sha256": "f687de133eacfa92a837b0973efe9221064003f22c3f064424323cb313b2d936"
+    },
+    {
+      "path": "captures/v4/11_journal.png",
+      "bytes": 442401,
+      "sha256": "1b319884b04b5d57aecf66b226ef3ea447ad3ee9a6a31a089df351131db9cf34"
+    },
+    {
+      "path": "captures/v4/12_original_pixels.png",
+      "bytes": 2810231,
+      "sha256": "c541c2af800cd7f83901acf95cfad80f7c3feb8c73cfb301406b3403cd105e57"
+    },
+    {
+      "path": "captures/v4/13_full_scroll.png",
+      "bytes": 643941,
+      "sha256": "aa11ec428a123467cf11e4b0e3ef0c6afc9be62d433abb9d13801ca3a7997e09"
+    },
+    {
+      "path": "captures/v4/14_scroll_start.png",
+      "bytes": 2076128,
+      "sha256": "67b1cd88ff79800e9c2c94f43508148372ac347bfea3fb7053036ce33663f9fe"
+    },
+    {
+      "path": "captures/v4/15_scroll_west.png",
+      "bytes": 1958798,
+      "sha256": "9ce1a3a15fbe1837ebd9e573a78af19f8ac9a2a9a6a320eb38d1f0a7b88e359a"
+    },
+    {
+      "path": "captures/v4/16_scroll_east.png",
+      "bytes": 1952113,
+      "sha256": "79e8fb02f2ee2fb129e45773d48aaca4c3876d4faaee6e11da63a9744618ba1e"
+    },
+    {
+      "path": "captures/v4/motion_raw.avi",
+      "bytes": 75192360,
+      "sha256": "d5f3416fb9d5441c9e684ef7041e2eef3dbd5c178bd0c1b6b38a8822e702c1b4"
+    },
+    {
+      "path": "captures/v4/画卷展开与交互.mp4",
+      "bytes": 11715181,
+      "sha256": "8270b3f227b0e8988074eaf427d2c9bf9858d7225f0d72c97243ab7305ae1a70"
+    },
+    {
+      "path": "captures/v4/画卷展开预览.gif",
+      "bytes": 9146178,
+      "sha256": "ed4909529c151a0852cdca81c9dadd5001e88acdc5983f5c2e8ab46f6617b3b1"
+    },
+    {
+      "path": "export_presets.cfg",
+      "bytes": 869,
+      "sha256": "8231ddaf69ef7613395c08dccac0cfc002c83fa9b9bcc7c853228ccc7ddd4484"
+    },
+    {
+      "path": "Mac开发说明.txt",
+      "bytes": 5930,
+      "sha256": "2ff1038e7a42dfdb1bcc4158ce0a5cd4409b382c7d5c856deb0d3fc4a99fd979"
+    },
+    {
+      "path": "pre/.gdignore",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "pre/assets/demo.mp4",
+      "bytes": 11715181,
+      "sha256": "8270b3f227b0e8988074eaf427d2c9bf9858d7225f0d72c97243ab7305ae1a70"
+    },
+    {
+      "path": "pre/assets/game-bargain.jpg",
+      "bytes": 187711,
+      "sha256": "d6a8eaa56f041ba29f401cf2dd19ac65e6a0ae299f70801cd351a0055ace0754"
+    },
+    {
+      "path": "pre/assets/game-boat.jpg",
+      "bytes": 282952,
+      "sha256": "65f7f5631b965195ff214cb2be17e5052b24381bdb23e1117a13180cfd7a2577"
+    },
+    {
+      "path": "pre/assets/game-bridge.jpg",
+      "bytes": 289524,
+      "sha256": "e7e8b9725e9536b3a682d373ca13f73d574467ed92227043537966c2cb6d18d0"
+    },
+    {
+      "path": "pre/assets/game-panorama.jpg",
+      "bytes": 289695,
+      "sha256": "fef165ee9f8d85911fedc6e51e432138f4b59f7c60d1b388c5ecfbd33cc26e1e"
+    },
+    {
+      "path": "pre/assets/game-summary.jpg",
+      "bytes": 88886,
+      "sha256": "c0be670da3242f72f19bc3394daa36b819b42ddf4cb05c0689637905e44f622e"
+    },
+    {
+      "path": "pre/assets/game-tavern-first.jpg",
+      "bytes": 159419,
+      "sha256": "1f028c8c5190b0519c1edc173a6891118c4f06fa5b3b34386a88aaffc4b60338"
+    },
+    {
+      "path": "pre/assets/game-tavern-second.jpg",
+      "bytes": 153101,
+      "sha256": "0fb6effc04276f66ef0b1eca35a73b78fa867d69aa386b55d3d9f403cdbfa8ba"
+    },
+    {
+      "path": "pre/assets/game-theatre.jpg",
+      "bytes": 108979,
+      "sha256": "a04ca29edcf7c5fd6609e5e56bf396bcc3e178052ca31d39ca38a8b03632d3ae"
+    },
+    {
+      "path": "pre/assets/NotoSansSC-copyright.txt",
+      "bytes": 77,
+      "sha256": "fd048420acfd96c38fa4674263284dcb1f0e43fb7a60822dd3d34d72b890d8da"
+    },
+    {
+      "path": "pre/assets/NotoSansSC.woff2",
+      "bytes": 4021752,
+      "sha256": "3c4dd008d83ad4e9eab98ae26afd17ed52acd190872ab3a256ee5faee3c705d6"
+    },
+    {
+      "path": "pre/assets/NotoSerifSC-copyright.txt",
+      "bytes": 43,
+      "sha256": "c92548df3503bef01937a4529d5514bc55ffa4a29e3d8be71daf6deacbfdc64c"
+    },
+    {
+      "path": "pre/assets/NotoSerifSC.woff2",
+      "bytes": 5526192,
+      "sha256": "7478c46b806812e646ad384adeda5e9669a854a85be57c18ab939ee5265e2c71"
+    },
+    {
+      "path": "pre/assets/OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    },
+    {
+      "path": "pre/assets/painting-bridge.jpg",
+      "bytes": 438991,
+      "sha256": "fae5c6ed51a7f8462bab7f5f1523901042bdb8b13f163addb4e14d40104849e5"
+    },
+    {
+      "path": "pre/assets/painting-full.jpg",
+      "bytes": 2092882,
+      "sha256": "3a5a501a728a681909983ed2c6fbab48a4507953841d326dff2c0457461a2b79"
+    },
+    {
+      "path": "pre/assets/source.json",
+      "bytes": 1409,
+      "sha256": "fc00fe0a55e01b42aa09f65cae9bfe93cc70265f5416179e2ec3b5f7dc19b1d3"
+    },
+    {
+      "path": "pre/export_pre.py",
+      "bytes": 4028,
+      "sha256": "d086f91a7f78bab37a8f61e93ad328f5be77c78dc06dbe6b74e47ba8aeae9e87"
+    },
+    {
+      "path": "pre/index.html",
+      "bytes": 59599,
+      "sha256": "56994ebd970ff50c9a7f034180729653ab9a63eecaba202d356b0dc130c62e4d"
+    },
+    {
+      "path": "pre/prepare_assets.py",
+      "bytes": 4833,
+      "sha256": "5374fa1fefa48da87cb7902803858ce44da2465775c763547d853001590c6bfb"
+    },
+    {
+      "path": "pre/展示使用说明.txt",
+      "bytes": 1461,
+      "sha256": "f770157e5de3f6b5c267445f7f24d05fa767a91dec88bd37eea1020758553946"
+    },
+    {
+      "path": "pre/汴梁一日_PRE.html",
+      "bytes": 39068249,
+      "sha256": "683a6d57f15c9cd1ef5ce98faba661c8847e5d136e9f6bad0e8814e683c78d8b"
+    },
+    {
+      "path": "pre/汴梁一日_PRE第一版.zip",
+      "bytes": 29426365,
+      "sha256": "05999875b5aa02822fa70be9dee09317446502302e115af2faa8ac425470ffa8"
+    },
+    {
+      "path": "pre/演示预览.png",
+      "bytes": 82204,
+      "sha256": "29504c83d91b20c3a023dbcaf47cba9cb90e98c72cb4a9ca1af9fd4149c0a57a"
+    },
+    {
+      "path": "pre/逐页讲稿.txt",
+      "bytes": 6284,
+      "sha256": "7ea75ab79785759f0be3f67fc740a489bc6124b5c27b292401359a248fe9e96d"
+    },
+    {
+      "path": "project.godot",
+      "bytes": 779,
+      "sha256": "883a8bb5fb9d5378f7dd868085d083048e5713999874aca05f3ceff647d4b7e7"
+    },
+    {
+      "path": "reference/.gdignore",
+      "bytes": 2,
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "path": "reference/Alongtheriver_QingMing_38414x1800.jpg",
+      "bytes": 19320386,
+      "sha256": "ad9ccd836874141c985c8db89589d7f6960719eda8281966646eb41a6ed02950"
+    },
+    {
+      "path": "reference/hud_v1.gd",
+      "bytes": 14179,
+      "sha256": "7ea8e3691cfd0ebc4b694380447bb7df6ebb65cc04ca703fc99b60ebec5837d1"
+    },
+    {
+      "path": "reference/main_v1.gd",
+      "bytes": 30466,
+      "sha256": "58f96d81d0fe58c9ed6dd4fc97509f324574ae9c39907451ec28c2964f58d6a6"
+    },
+    {
+      "path": "reference/v2_backup/export_windows.py",
+      "bytes": 1360,
+      "sha256": "d2394e765769f05e90f36cb6d8780d799aa3f895eadde1a0a9c9bb375740d2c2"
+    },
+    {
+      "path": "reference/v2_backup/hud.gd",
+      "bytes": 17043,
+      "sha256": "76cbcbed9c1e656caeb1118f0b0415d3975d4b4890de4cbb0415be95e97b0bd1"
+    },
+    {
+      "path": "reference/v2_backup/main.gd",
+      "bytes": 34166,
+      "sha256": "2a9d66c5d1bd76b65d0e8e2f8613a1a7eb693dfb364473d8af4a5fa9fc77b246"
+    },
+    {
+      "path": "reference/v2_backup/package_demo.py",
+      "bytes": 1737,
+      "sha256": "5a03a57dd47ff08a35afef8390ee52084c3eb73e35b901063bda004d7fb59c89"
+    },
+    {
+      "path": "reference/v2_backup/verify_release.py",
+      "bytes": 2007,
+      "sha256": "f03a0b904c2af955d026fe8c75a321cb583c626c64ff284e6c5867238e86fdca"
+    },
+    {
+      "path": "reference/v2_backup/world.gd",
+      "bytes": 22735,
+      "sha256": "1e0323033c61ab0d6cd5e5e08b937f1a87677ac92c9e673ad719c061b7667aa3"
+    },
+    {
+      "path": "reference/v3_backup/hud.gd",
+      "bytes": 17435,
+      "sha256": "197d12f6491b53dae0dd7f4ecefc20978745275a51bbff5a168b5b9171158891"
+    },
+    {
+      "path": "reference/v3_backup/main.gd",
+      "bytes": 41847,
+      "sha256": "e5732033412e6d63a9e33ffe8d930b76e90e8ebd1d7d6cfbcd8c809165909bf8"
+    },
+    {
+      "path": "reference/v3_backup/painting_view.gd",
+      "bytes": 5835,
+      "sha256": "4d0e31ed1d1f7f8c8a1c449e0f94bc310d42bea562f73ef0621e829bc818a7dc"
+    },
+    {
+      "path": "reference/v3_backup/scroll_ui.gd",
+      "bytes": 5984,
+      "sha256": "65f33e5b0bedd1e0079fae71f7bf3556dcc4954d56636b8eff645f163a45e1ec"
+    },
+    {
+      "path": "reference/v3_backup/使用说明.txt",
+      "bytes": 7377,
+      "sha256": "fa80ebda4fb4dd524d6581dd8b2050aec763369d0379f1cd61e34a62611621f5"
+    },
+    {
+      "path": "reference/v3_backup/验证记录.txt",
+      "bytes": 4573,
+      "sha256": "bcd5fe3e19d8d7225a6cfa21562d60df4487871d186afa3eb82177456028c898"
+    },
+    {
+      "path": "reference/world_v1.gd",
+      "bytes": 22419,
+      "sha256": "68a5069433fd4e5029e438c4eae3805344ac72d456dd8c017057ca778b84ee15"
+    },
+    {
+      "path": "scenes/main.tscn",
+      "bytes": 164,
+      "sha256": "a550a2d75f2b9e6524a1ef7a83a26938bc3191441961ce94ce19e8736e62d31c"
+    },
+    {
+      "path": "scripts/day_state.gd",
+      "bytes": 4351,
+      "sha256": "9a8c87a6b33e2014a4dcc6b0cb2b51a9c4c96c8b219c83f1770e8171c9832753"
+    },
+    {
+      "path": "scripts/day_state.gd.uid",
+      "bytes": 20,
+      "sha256": "2fee281c3755df244505cb8cd364ad1b30d8f738850342264012cbf6406aaf5a"
+    },
+    {
+      "path": "scripts/dialogue_wash.gdshader",
+      "bytes": 308,
+      "sha256": "bbd7c582860479a9901fe3ff1ce7dd7b9be6b4143309fb216912601bf21ecbca"
+    },
+    {
+      "path": "scripts/dialogue_wash.gdshader.uid",
+      "bytes": 20,
+      "sha256": "da16912e4c7f3da7776de37c79aa93b4f76c36d722fb56185ced29b6581d9a34"
+    },
+    {
+      "path": "scripts/hud.gd",
+      "bytes": 19565,
+      "sha256": "e00c226e9d0195b1a8eff39d745cb8d3e7e7927b882ff538d821b151085416ee"
+    },
+    {
+      "path": "scripts/hud.gd.uid",
+      "bytes": 20,
+      "sha256": "96f149c5277e6b3787bca35ab0c3a57dad53bbe45727f1e04faffdc9f56daea1"
+    },
+    {
+      "path": "scripts/ink_outline.gdshader",
+      "bytes": 541,
+      "sha256": "07a9d9921a1ac935c1cb21845f9255dc53e5eb4593176164ea8a962cd086de64"
+    },
+    {
+      "path": "scripts/ink_outline.gdshader.uid",
+      "bytes": 20,
+      "sha256": "97ac19ada7635849c639b570fb63ce881376e914a37ba8bc247b6444eede7918"
+    },
+    {
+      "path": "scripts/ink_toon.gdshader",
+      "bytes": 885,
+      "sha256": "17e2307b7345b0b95e16251a0f42658d543a96c43a1cee816e10fd00d0173015"
+    },
+    {
+      "path": "scripts/ink_toon.gdshader.uid",
+      "bytes": 19,
+      "sha256": "8a364c288731d311e7f8fe1d61c3ed632dd8596291c34a6ca752171c0b0c2952"
+    },
+    {
+      "path": "scripts/main.gd",
+      "bytes": 42824,
+      "sha256": "f2592a47145f57c859150570489809e59bfb56b0d6e6b91c732c434089f89331"
+    },
+    {
+      "path": "scripts/main.gd.uid",
+      "bytes": 20,
+      "sha256": "92154c0fffbc1a00821a0903da3a4beb517b5a8c91c37d2df38057e051c9bb8a"
+    },
+    {
+      "path": "scripts/painting_overview.gd",
+      "bytes": 1081,
+      "sha256": "42e62669e2546e74d86b446ae4e8fc2b311b4145e71ef6a39f29e7975aabc26d"
+    },
+    {
+      "path": "scripts/painting_overview.gd.uid",
+      "bytes": 19,
+      "sha256": "1cab6cbdaef5cc77cdac4275febea4ebc1beef2e4e6d1de1ea9e8ff041fc62db"
+    },
+    {
+      "path": "scripts/painting_view.gd",
+      "bytes": 4854,
+      "sha256": "5537b98f7b88e445d4dd0ba357ed0e57b50470b9f303c0aec074a25aa5965c46"
+    },
+    {
+      "path": "scripts/painting_view.gd.uid",
+      "bytes": 19,
+      "sha256": "91a241e7093bd6b4fce7207c7149528a9cdb9287bb2459b2a6aa636e29a6fecd"
+    },
+    {
+      "path": "scripts/paper.gdshader",
+      "bytes": 260,
+      "sha256": "828d33345e545062847ce3ec037f1b75a1fc124b7b07a9f1b2de483dffc428c5"
+    },
+    {
+      "path": "scripts/paper.gdshader.uid",
+      "bytes": 20,
+      "sha256": "6a6c30f682cf3a7970a9e09b47335650f09e02feee6cb52d8880c19665529add"
+    },
+    {
+      "path": "scripts/scroll_frame.gd",
+      "bytes": 687,
+      "sha256": "e9560cc49cfebc57607d6074a10d7675efa129fbb2d234ac546e5fe75f958f88"
+    },
+    {
+      "path": "scripts/scroll_frame.gd.uid",
+      "bytes": 19,
+      "sha256": "cbd4e7e8b8f6ce5600072e0c845a94cbe99de146e1bcd9b25b254b26445bad8e"
+    },
+    {
+      "path": "scripts/scroll_frame.gdshader",
+      "bytes": 1435,
+      "sha256": "ca1eed8c99a8dab10441989356c4a867f7c74acdc2e1bf903c366210b4b40a35"
+    },
+    {
+      "path": "scripts/scroll_frame.gdshader.uid",
+      "bytes": 19,
+      "sha256": "c384e45c3e45ce79583fe2bc74b4f111d2b2ad44aa0d8b1e9e2db1212dbedca9"
+    },
+    {
+      "path": "scripts/scroll_hotspot.gd",
+      "bytes": 2219,
+      "sha256": "7b6463409dfaaf2b5646f54cf0d2cc57270fbad06e84d42e3e12a3a77f9c9e71"
+    },
+    {
+      "path": "scripts/scroll_hotspot.gd.uid",
+      "bytes": 18,
+      "sha256": "06369c78aaa6703bd92f7e09e53eecb535cb05df94cde1e61966013fab5eb510"
+    },
+    {
+      "path": "scripts/scroll_map.gd",
+      "bytes": 1059,
+      "sha256": "644c0444bcb489f373b2a53a70a7a3d3cb18ec69420dd81ba99062de356c17c9"
+    },
+    {
+      "path": "scripts/scroll_map.gd.uid",
+      "bytes": 20,
+      "sha256": "e5bd374f39125c9ab8aa842ef66ef3e59dfb6cb0b87e63c18fc20689badfe8fe"
+    },
+    {
+      "path": "scripts/scroll_surface.gd",
+      "bytes": 1420,
+      "sha256": "e4e9212fc2310a2876e6420667bca47dfd13352f54da6317903d7a465ab82a7d"
+    },
+    {
+      "path": "scripts/scroll_surface.gd.uid",
+      "bytes": 20,
+      "sha256": "9e83df0926cb8867d476c25a0e50096afef41c62dae43e939d53ef64e201e7b4"
+    },
+    {
+      "path": "scripts/scroll_ui.gd",
+      "bytes": 5253,
+      "sha256": "78ef4800052a3590fec001a56be616245d2e14796ccfc083d1b92d7a4aead909"
+    },
+    {
+      "path": "scripts/scroll_ui.gd.uid",
+      "bytes": 20,
+      "sha256": "67b76f5095adb041803001ba209f1ca1b42c8fc0271d6a1426b3f002f1d7bebb"
+    },
+    {
+      "path": "scripts/sound.gd",
+      "bytes": 2334,
+      "sha256": "da3db699941b838703c064f35ea61c5f47c7922a31577416e7bfb7cbb517a2c0"
+    },
+    {
+      "path": "scripts/sound.gd.uid",
+      "bytes": 20,
+      "sha256": "f9b735ff1dddf74909e0c713c20c797f989bc911fb28bb44cfd536219a43afdd"
+    },
+    {
+      "path": "scripts/water.gdshader",
+      "bytes": 438,
+      "sha256": "64bc2ff13fe22734a4e360fe0ea6aa5156f34b57e2a4a0cc773a832f4f14994b"
+    },
+    {
+      "path": "scripts/water.gdshader.uid",
+      "bytes": 20,
+      "sha256": "faad22f20707c774be98df4aeb3f986b0eeadf71a062e5823ec283726a7b97b5"
+    },
+    {
+      "path": "scripts/world.gd",
+      "bytes": 28844,
+      "sha256": "83596f6e904b0a046ba515953e36c322067370bcdfe7323b334e5817d0cc7951"
+    },
+    {
+      "path": "scripts/world.gd.uid",
+      "bytes": 20,
+      "sha256": "08e68fd68230698190cc6d25da0e1d554b6d42f92faf1baa92d6245d79dd4630"
+    },
+    {
+      "path": "tests/test_painting_assets.py",
+      "bytes": 1260,
+      "sha256": "927c3bbb0722dde507763e8665a3ba1ffea1d19431e68a06bcb0d2fa8739c69b"
+    },
+    {
+      "path": "tests/test_performance.gd",
+      "bytes": 1103,
+      "sha256": "4312224306c94d07b309cccf4632edd47e0ca73270cb2339291f96251cd1cce4"
+    },
+    {
+      "path": "tests/test_performance.gd.uid",
+      "bytes": 20,
+      "sha256": "88e3c926662b7007cdcf152df772fa695d9af1ad494282205cc47d8e272b17a9"
+    },
+    {
+      "path": "tests/test_state.gd",
+      "bytes": 1665,
+      "sha256": "c42d1db23a5d24cb472c5dc0a2a2d97bbc8881bba8ea95b593a6d8c5dfb939aa"
+    },
+    {
+      "path": "tests/test_state.gd.uid",
+      "bytes": 20,
+      "sha256": "ebf662a0749d3999b5850db7eb17715bd44541c578af3c0ab028a0d81a6477ae"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "bytes": 1373,
+      "sha256": "24837259f5fb76deaba15037bdfeab478eca61e4d391c8090ce0b96f417e9bde"
+    },
+    {
+      "path": "tools/encode_preview.py",
+      "bytes": 1648,
+      "sha256": "5caa65c89ba6a936336b73295b7b45cc91652298b0e82532cb46f19c14297e75"
+    },
+    {
+      "path": "tools/export_windows.py",
+      "bytes": 1397,
+      "sha256": "935640f2a5ad450c777d1397bdf32fbf858e90fa050ef8f9471948b84a62f4f3"
+    },
+    {
+      "path": "tools/package_demo.py",
+      "bytes": 1942,
+      "sha256": "5db63bde9ce27cd4a0bb3bde49f9f0461e3158061aab42fd268b682ec85ad8eb"
+    },
+    {
+      "path": "tools/package_migration.py",
+      "bytes": 3911,
+      "sha256": "3c8425f5ce048a13d72bedc2a9e54a45053497c02286ff93282fdf65df5d1b76"
+    },
+    {
+      "path": "tools/prepare_painting.py",
+      "bytes": 2243,
+      "sha256": "c5857025289f18f7701c12b74101727e7161f861a1113f903cf6f9a9d6e8649d"
+    },
+    {
+      "path": "tools/requirements-assets.txt",
+      "bytes": 145,
+      "sha256": "3e8c5418564e9933fcd82d72431a17f14988373ce8dabfa09da47de041c9067c"
+    },
+    {
+      "path": "tools/verify_migration.py",
+      "bytes": 1112,
+      "sha256": "7dc78631a430736c062797387a9433eefe52fbedc43182a0de3aab6a760f2795"
+    },
+    {
+      "path": "tools/verify_release.py",
+      "bytes": 2055,
+      "sha256": "55da3a2728baf1a8a94be99e4fa511e29a3841f4e04495055350346ea60ccae4"
+    },
+    {
+      "path": "交付包/汴梁一日_完整Demo.zip",
+      "bytes": 79511008,
+      "sha256": "ae35a5675ccb78e0de69f54fd7ad2812372b6fa524dba6d2243043bb2fda0229"
+    },
+    {
+      "path": "交付包/汴梁一日_横向长卷与动效_v3.sha256.txt",
+      "bytes": 109,
+      "sha256": "6234e10bbfa1f0b360de9adcd8774c0c29aef7a025e646435bf54e89377bb3ef"
+    },
+    {
+      "path": "交付包/汴梁一日_横向长卷与动效_v3.zip",
+      "bytes": 431748696,
+      "sha256": "6547732c75cc70c70e43a2450433ba42ec157e8f50b0934bfa07dc564bb97827"
+    },
+    {
+      "path": "交付包/汴梁一日_沉浸画卷UI_v4.sha256.txt",
+      "bytes": 102,
+      "sha256": "f9dfe6da3c97037e8e4b82d85cf51f0670c190fdd297eacc36f5d7182944dec3"
+    },
+    {
+      "path": "交付包/汴梁一日_沉浸画卷UI_v4.zip",
+      "bytes": 441039616,
+      "sha256": "39400a27a0c1fbd2daee1f7e60cf593e58cad5c780f44bd8192515063ce65ec6"
+    },
+    {
+      "path": "交付包/汴梁一日_高清原画与三渲二_v2.sha256.txt",
+      "bytes": 112,
+      "sha256": "d76de5de3181592cbd5d8a126308bbc099ed9910e9d0b0f10d2d1691887d12e1"
+    },
+    {
+      "path": "交付包/汴梁一日_高清原画与三渲二_v2.zip",
+      "bytes": 393865304,
+      "sha256": "d01094dd5517cd28b2900f99080eca2e2797df63d3a4aad264b6e18ddca788b5"
+    },
+    {
+      "path": "使用说明.txt",
+      "bytes": 7586,
+      "sha256": "45f8a901fb719dc73593713491078c7f6b0853bb481c911e1c6165e0b5e1e773"
+    },
+    {
+      "path": "在Mac上开发.command",
+      "bytes": 420,
+      "sha256": "77917e5df49d30224507312ceef21215f6940a2cec033c821fbef704a5693467"
+    },
+    {
+      "path": "开始体验.cmd",
+      "bytes": 51,
+      "sha256": "6c5b2c27409f3caa97884139f70afb71a9c5217f72db7f266568aacf899dc887"
+    },
+    {
+      "path": "迁移验证记录.txt",
+      "bytes": 889,
+      "sha256": "57883d65c7ff538fba33e49df1c987fd565561f5a22615655a7ac85660315d8c"
+    },
+    {
+      "path": "验证记录.txt",
+      "bytes": 3256,
+      "sha256": "2ccbbdebeb55b1e0064eb35dd99880e5899410c97e7da4b409bb313334e24ac2"
+    }
+  ]
+}

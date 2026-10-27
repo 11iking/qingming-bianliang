@@ -1,0 +1,36 @@
+{
+  "original": {
+    "work": "张择端《清明上河图》原作画心",
+    "source_file": "reference/Alongtheriver_QingMing_38414x1800.jpg",
+    "source_pixels": [
+      38414,
+      1800
+    ],
+    "source_url": "https://commons.wikimedia.org/wiki/File:Alongtheriver_QingMing.jpg",
+    "rights": "Public domain faithful reproduction; see the Wikimedia Commons source page.",
+    "painting-full.jpg": "完整画心等比缩小，无裁切、无 AI 改绘",
+    "painting-bridge.jpg": {
+      "description": "真实原画虹桥区域裁图",
+      "crop_xyxy": [
+        16800,
+        0,
+        22300,
+        1800
+      ]
+    }
+  },
+  "screenshots": {
+    "game-panorama.jpg": "captures/release_v4/14_scroll_start.png",
+    "game-bargain.jpg": "captures/release_v4/03_bargain.png",
+    "game-bridge.jpg": "captures/release_v4/04_bridge.png",
+    "game-boat.jpg": "captures/release_v4/05_boat.png",
+    "game-tavern-first.jpg": "captures/release_v4/06_tavern.png",
+    "game-tavern-second.jpg": "captures/release_v4/07_second_person.png",
+    "game-theatre.jpg": "captures/release_v4/08_theatre.png",
+    "game-summary.jpg": "captures/release_v4/09_summary.png"
+  },
+  "video": {
+    "demo.mp4": "captures/v4/画卷展开与交互.mp4；Godot v4 实机录屏"
+  },
+  "fonts": "Noto Sans SC / Noto Serif SC, SIL Open Font License 1.1; locally embedded WOFF2 subsets."
+}

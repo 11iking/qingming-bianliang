@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "unity": {
+      "command": "/bin/bash",
+      "args": ["/Users/你的用户名/Developer/QingmingMacDev/StartMCPOnMac.command"],
+      "env": {"PYTHONUTF8": "1"}
+    }
+  }
+}

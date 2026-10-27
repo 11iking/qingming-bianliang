@@ -1,0 +1,114 @@
+{
+  "result": "PASS",
+  "scope": "Binary structure, hierarchy references, finite geometry, triangle indices, source-copy hashes. This does not verify Unity compilation or rendering.",
+  "nodes": 936,
+  "meshSurfaces": 636,
+  "vertices": 697016,
+  "labels": 29,
+  "matchedAssets": [
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\overview.jpg",
+      "sha256": "3b2a24cfbbc25d691647b1bb0e5601691d2e181910be09c339d30d3f419994bd"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\source.json",
+      "sha256": "90cd55bc10b0ac0053b214d243afd0130f8c60e109ca9d8dfffbafdcad91ecbc"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_00.png",
+      "sha256": "67aad61c120c61b18257bc1a52547a78d91cdc900d98bc80e5c794bbd0d88307"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_01.png",
+      "sha256": "6945a1d6a72c9f52cae22d0a7304b32bbce655542025b287d940f157859833bb"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_02.png",
+      "sha256": "8387e537ecc1beea1f1916302fc66fa2b3005f37d938d13d086952498743ddb0"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_03.png",
+      "sha256": "41e9ac03b3c9d24ed6727b02889366d3f79657d59243f71c4c6d365593c6a600"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_04.png",
+      "sha256": "fa4f6d9d001b04ee5354fe1ee029bca27c9ba9aa0cc8f6d1470e24bca2e7228d"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_05.png",
+      "sha256": "078abcf7bd983db1ea6786594c169179edff420aa2f807ef0160f078077cad3a"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_06.png",
+      "sha256": "198f542eab43315e41354884084cc2f1a9cee026c6c5f5c6181ca2e649d86ab9"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_07.png",
+      "sha256": "b6f6fe8c058725fe4cb7ef5211c3819d86e05af482e38d3ed03335442d3cb782"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_08.png",
+      "sha256": "93b2208f24197988a602fdd023d080123754c2d22a3e56c38f88d00bfe72dbe9"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_09.png",
+      "sha256": "5a7c54ccfa124b3a2293e686f2e0d97bc0762e526191d3a4b0d486a3a402be53"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_10.png",
+      "sha256": "27a87a7300357c5687404cc4826db18817a81e64c8bd59bcec04ada6ab9840a6"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_11.png",
+      "sha256": "47028d8f0ab8559d5cc6c63718c62af45a06a7e7e4ad9fe857980e2f1240c1c2"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_12.png",
+      "sha256": "68a458e92cc8d1202a74631ad7e9ed63c1fe110b4b35fb9d7ac588c94eb1c4e2"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_13.png",
+      "sha256": "99aa2ab7fae86ea99b76866d1f1f6bbd753bf42f8befb21ac8f40f8bcb68167c"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_14.png",
+      "sha256": "8d3056fbe4a51b09c8eb58fc987e68c600ae82562252a0b58d724462f498d1cb"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_15.png",
+      "sha256": "0439c4846afe1356afdda9095d4a3ed2582ea7bfaa3085fcf9b634b20cce14dc"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_16.png",
+      "sha256": "53f74e7470b9eb5df1c40202c007dcc75598f16aed6f4a8c787be42bf7c1aebc"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_17.png",
+      "sha256": "6c92e68e3aa3faddd18bf6f4c3532487d47afe045739e6b99a8538cabdc54495"
+    },
+    {
+      "file": "UnityProject\\Assets\\StreamingAssets\\Painting\\tile_18.png",
+      "sha256": "d5fc3cc6edf2cd01b4e4d7d6f7f43c0395d3264724b4fdcae1a197401b1e7178"
+    },
+    {
+      "file": "UnityProject\\Assets\\Resources\\Fonts\\NotoSansSC-copyright.txt",
+      "sha256": "fd048420acfd96c38fa4674263284dcb1f0e43fb7a60822dd3d34d72b890d8da"
+    },
+    {
+      "file": "UnityProject\\Assets\\Resources\\Fonts\\NotoSansSC.ttf",
+      "sha256": "ada12fe7cf72ad5ba1f760c46ac018aa0ac3e74c0188edb56f76952697cb9b86"
+    },
+    {
+      "file": "UnityProject\\Assets\\Resources\\Fonts\\NotoSerifSC-copyright.txt",
+      "sha256": "c92548df3503bef01937a4529d5514bc55ffa4a29e3d8be71daf6deacbfdc64c"
+    },
+    {
+      "file": "UnityProject\\Assets\\Resources\\Fonts\\NotoSerifSC.ttf",
+      "sha256": "8935346b18f52d9c2addf41096f8a746a0d9a4364b5e5908f0adf3a51bfd6bd2"
+    },
+    {
+      "file": "UnityProject\\Assets\\Resources\\Fonts\\OFL.txt",
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  ]
+}

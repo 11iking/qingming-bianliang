@@ -1,0 +1,9 @@
+2026-10-20 迁移验证
+环境：Windows，Godot 4.7.2。未在真实 Mac 上验证。
+独立副本不携带 .godot 缓存：导入成功。
+Python 工具语法检查通过；Mac 启动脚本使用 LF 换行。
+
+STATE_TEST_PASS: 27 trade paths; inventory conservation; fair/high/discount totals; insufficient funds; save/load including partial pour; sandbox does not overwrite save
+PAINTING_VIEW_PASS: full scroll, native tiles, zoom anchor, drag, both edges, final tile, zoom bounds, entry button, duplicate-click guard, toon material
+SCROLL_TEST_PASS: pointer drag, coast, camera limits, contextual drawer, collapse on drag, hotspot preview, return to task, pause, no unintended state mutation
+SELF_TEST_PASS: full day, 3 trades, haggle, guarded payments, alternating oars, pouring input, toast, theatre, 21 camera views, chapter sandbox, world raycast, existing save preserved

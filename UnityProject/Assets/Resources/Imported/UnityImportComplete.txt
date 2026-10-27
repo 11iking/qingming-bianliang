@@ -1,0 +1,2 @@
+geometryRevision=4
+Imported 936 nodes, 636 meshes, 48 materials.

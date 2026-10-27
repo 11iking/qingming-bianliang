@@ -1,0 +1,12 @@
+* text=auto
+*.command text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.mp4 binary
+*.ttf binary
+*.woff2 binary
+*.dll binary
+*.bytes binary

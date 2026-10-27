@@ -1,0 +1,46 @@
+# Generated engine caches and local state
+.godot/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.vs/
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+*.pdb
+*.rsp
+# Installers, compiled demos and duplicate handoff archives
+/build/
+/build-unity/
+/.tools/
+/交付包/
+/Mac迁移包/
+/Mac开发交接/
+/GitHub发布/
+/tools/reports/qa/
+/tools/unity-setup/
+*.zip
+*.exe
+*.msi
+# Personal authentication/signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.mobileprovision
+*.key
+*.pem
+credentials.json

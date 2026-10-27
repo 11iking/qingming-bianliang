@@ -1,0 +1,26 @@
+汴梁一日 · Third-party notices
+
+Godot Engine
+Copyright (c) 2014-present Godot Engine contributors.
+Copyright (c) 2007-2014 Juan Linietsky, Ariel Manzur.
+MIT License; see build/licenses/Godot-LICENSE.txt and Godot-COPYRIGHT.txt.
+https://godotengine.org/license/
+
+Noto Sans SC / Noto Serif SC
+SIL Open Font License, Version 1.1.
+Bundled as static font instances generated from the locally installed variable fonts.
+Their original copyright and license metadata are preserved inside the font files.
+See assets/fonts/OFL.txt, NotoSansSC-copyright.txt and NotoSerifSC-copyright.txt.
+https://github.com/notofonts/noto-cjk
+
+Zhang Zeduan / 清明上河图
+Public-domain reproduction, 38,414 x 1,800 pixels, sourced from Wikimedia Commons.
+https://commons.wikimedia.org/wiki/File:Alongtheriver_QingMing.jpg
+PD-Art (PD-old-100-expired). Original artwork held by the Palace Museum, Beijing.
+Original SHA-1: 5adcde2072c563ba48a4f2a8758f2b466e0e540b
+Original image retained in reference/Alongtheriver_QingMing_38414x1800.jpg.
+Runtime: 19 lossless PNG tiles, preserving every decoded RGB source pixel.
+See build/licenses/Painting-source.txt and assets/painting/source.json.
+
+All geometry, shaders, game logic, dialogue, icon, and synthesized sound in this project were created for this demo.
+No paid asset, third-party model, recorded music, or network service is required to play.
