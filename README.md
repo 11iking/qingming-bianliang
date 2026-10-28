@@ -2,6 +2,14 @@
 
 基于《清明上河图》的市井生活体验 Demo。玩家扮演卖梨的阿安，经历进货、买卖、送货、回访和夜归对账。
 
+## 直接下载体验
+
+**[下载 Windows 64 位免安装 Demo（ZIP，约 218 MB）](https://github.com/11iking/qingming-bianliang/releases/download/demo-windows-2026-10-28/Qingming_Demo_Windows_x64_2026-10-28.zip)**
+
+下载后先完整解压，再双击 `开始体验Unity版.cmd`；也可以直接运行 `build-unity/BianliangUnity.exe`。无需安装游戏编辑器，请保留程序旁的数据目录和 DLL。
+
+[发布说明和文件校验值](https://github.com/11iking/qingming-bianliang/releases/tag/demo-windows-2026-10-28)。这是 Windows 运行版；Mac 和 Apple Vision Pro 运行版尚未发布。仓库的 `Code → Download ZIP` 下载的是开发源码。
+
 ## 当前内容
 
 - Unity / 团结引擎主工程，以及原 Godot 工程。
@@ -22,7 +30,7 @@ Unity 工程：`UnityProject`，主场景：`Assets/Scenes/Qingming.unity`。
 在 Hub 中添加 `UnityProject`，等待首次导入后打开主场景并播放。
 
 请保留 `UnityProject` 与 `tools` 的相对位置：MCP 是相对路径本地包依赖。
-首次导入需要下载包依赖、重建缓存。编译后的 Windows 程序和安装器不在源码仓库内。
+首次导入需要下载包依赖、重建缓存。编译后的 Windows 程序在 Releases 单独提供，安装器不在源码仓库内。
 编辑器菜单 `Qingming > Build Windows Demo` 可重新构建 Windows 版。
 
 原 Godot 工程入口为根目录 `project.godot`。该版本用于参考，最新剧情与立绘在 Unity 工程中。
